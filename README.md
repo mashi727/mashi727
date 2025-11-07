@@ -1,14 +1,21 @@
+## 🚀 About Me
+
+Software developer passionate about creating practical tools and automation solutions.
+
+### 💡 Current Focus
+- 🎬 Video processing & automation tools
+- 🤖 AI-powered workflow enhancement
+- 📄 Document generation systems
+- 🎵 Audio analysis applications
+- 🔧 IoT & embedded systems
+
+---
+
 <table>
 <tr>
 <td width="30%" valign="top" align="center">
 
-<img src="https://github.com/mashi727.png" width="200px" style="border-radius: 50%;" alt="Profile Picture"/>
-
-### 👨‍💻 Masami Mashino
-
 ![Profile Views](https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=blueviolet&style=flat)
-
----
 
 ## 📊 Stats
 
@@ -36,19 +43,6 @@
 
 </td>
 <td width="70%" valign="top">
-
-## 🚀 About Me
-
-Software developer passionate about creating practical tools and automation solutions.
-
-### 💡 Current Focus
-- 🎬 Video processing & automation tools
-- 🤖 AI-powered workflow enhancement
-- 📄 Document generation systems
-- 🎵 Audio analysis applications
-- 🔧 IoT & embedded systems
-
----
 
 ## 🌟 Featured Projects
 
