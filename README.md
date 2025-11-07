@@ -70,18 +70,6 @@ Smart video splitting with GPU acceleration and crossfade support
 Professional sous vide controller with PID control and WiFi monitoring
 `C++` `ESP32` `PID Control` `IoT`
 
----
-
-## 📈 Contribution Activity
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/2ea043/mashi727)
-
-### Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🚀 Published release [v1.0.0 - Initial Release](https://github.com/mashi727/rehearsal-workflow/releases/tag/v1.0.0) in [mashi727/rehearsal-workflow](https://github.com/mashi727/rehearsal-workflow)
-<!--END_SECTION:activity-->
-
 </td>
 </tr>
 </table>
