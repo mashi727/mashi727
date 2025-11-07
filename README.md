@@ -1,8 +1,14 @@
-# 👨‍💻 Masami Mashino
-
 <table>
 <tr>
-<td width="35%" valign="top">
+<td width="30%" valign="top" align="center">
+
+<img src="https://github.com/mashi727.png" width="200px" style="border-radius: 50%;" alt="Profile Picture"/>
+
+### 👨‍💻 Masami Mashino
+
+![Profile Views](https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=blueviolet&style=flat)
+
+---
 
 ## 📊 Stats
 
@@ -11,8 +17,6 @@
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mashi727&theme=tokyonight&hide_border=true)
 
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mashi727&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
-
-![Profile Views](https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=blueviolet&style=flat)
 
 ---
 
@@ -31,7 +35,7 @@
 `Linux` `Vim` `VS Code`
 
 </td>
-<td width="65%" valign="top">
+<td width="70%" valign="top">
 
 ## 🚀 About Me
 
