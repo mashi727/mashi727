@@ -44,19 +44,31 @@ Software developer passionate about creating practical tools and automation solu
 </td>
 <td width="70%" valign="top">
 
-## 📌 Pinned Repositories
+## 🌟 Featured Projects
 
-[![Rehearsal Workflow](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=rehearsal-workflow&theme=tokyonight&hide_border=true)](https://github.com/mashi727/rehearsal-workflow)
+### 🎵 [Rehearsal Workflow](https://github.com/mashi727/rehearsal-workflow)
+AI-powered tool that transforms orchestra rehearsal videos into detailed reports with chapters
+`Python` `Claude AI` `Whisper` `LuaTeX`
 
-[![Movie Viewer](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=movie-viewer&theme=tokyonight&hide_border=true)](https://github.com/mashi727/movie-viewer)
+### 🎬 [Movie Viewer](https://github.com/mashi727/movie-viewer)
+Professional video player with chapter management and waveform visualization
+`Python` `PySide6` `OpenCV` `PyQtGraph`
 
-[![DeepL CLI](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=deepl-cli&theme=tokyonight&hide_border=true)](https://github.com/mashi727/deepl-cli)
+### 🌐 [DeepL CLI](https://github.com/mashi727/deepl-cli)
+High-performance command-line translation tool with clipboard integration
+`Python` `DeepL API` `Unix Pipelines`
 
-[![LuaTeX Docker Remote](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=luatex-docker-remote&theme=tokyonight&hide_border=true)](https://github.com/mashi727/luatex-docker-remote)
+### 📄 [LuaTeX Docker Remote](https://github.com/mashi727/luatex-docker-remote)
+Remote LaTeX compilation with automatic network detection
+`Shell` `Docker` `LuaTeX` `SSH`
 
-[![Video Chapter Splitter](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=video-chapter-splitter&theme=tokyonight&hide_border=true)](https://github.com/mashi727/video-chapter-splitter)
+### ✂️ [Video Chapter Splitter](https://github.com/mashi727/video-chapter-splitter)
+Smart video splitting with GPU acceleration and crossfade support
+`Python` `FFmpeg` `GPU Encoding`
 
-[![ESP32 Sous Vide Controller](https://github-readme-stats.vercel.app/api/pin/?username=mashi727&repo=ESP32-SousVide-Controller&theme=tokyonight&hide_border=true)](https://github.com/mashi727/ESP32-SousVide-Controller)
+### 🍳 [ESP32 Sous Vide Controller](https://github.com/mashi727/ESP32-SousVide-Controller)
+Professional sous vide controller with PID control and WiFi monitoring
+`C++` `ESP32` `PID Control` `IoT`
 
 ---
 
