@@ -1,161 +1,82 @@
-<div align="center">
-
 # 👨‍💻 Masami Mashino
-
-### Software Developer | Tool Creator | Automation Enthusiast
-
-[![GitHub followers](https://img.shields.io/github/followers/mashi727?label=Follow&style=social)](https://github.com/mashi727)
-[![GitHub stars](https://img.shields.io/github/stars/mashi727?affiliations=OWNER&style=social)](https://github.com/mashi727)
-
-</div>
-
----
-
-<div align="center">
-
-## 🚀 About Me
-
-</div>
-
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Masami Mashino"
-        self.role = "Full Stack Developer"
-        self.languages = ["Python", "Go", "JavaScript", "Rust", "Shell"]
-        self.interests = [
-            "Video Processing & Automation",
-            "AI-Powered Tools",
-            "Document Generation",
-            "Audio Analysis",
-            "IoT & Embedded Systems"
-        ]
-
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together.")
-
-me = Developer()
-me.say_hi()
-```
-
----
-
-<div align="center">
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-### Frameworks & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=tauri&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
-
-### Development Environment
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
-
----
-
-<div align="center">
-
-## 📊 GitHub Analytics
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mashi727&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mashi727&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mashi727&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mashi727&theme=tokyo-night&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-## 🌟 Featured Projects
-
-</div>
 
 <table>
 <tr>
-<td width="50%">
+<td width="35%" valign="top">
 
-### 🎵 Rehearsal Workflow
+## 📊 Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mashi727&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mashi727&theme=tokyonight&hide_border=true)
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mashi727&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+
+![Profile Views](https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=blueviolet&style=flat)
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+`Python` `Go` `JavaScript` `TypeScript` `Rust` `Shell` `C++`
+
+**Tools**
+`Docker` `Git` `FFmpeg` `LaTeX`
+
+**Frameworks**
+`PySide6` `Qt` `Tauri` `Node.js`
+
+**Environment**
+`Linux` `Vim` `VS Code`
+
+</td>
+<td width="65%" valign="top">
+
+## 🚀 About Me
+
+Software developer passionate about creating practical tools and automation solutions.
+
+### 💡 Current Focus
+- 🎬 Video processing & automation tools
+- 🤖 AI-powered workflow enhancement
+- 📄 Document generation systems
+- 🎵 Audio analysis applications
+- 🔧 IoT & embedded systems
+
+---
+
+## 🌟 Featured Projects
+
+### 🎵 [Rehearsal Workflow](https://github.com/mashi727/rehearsal-workflow)
 AI-powered tool that transforms orchestra rehearsal videos into detailed reports with chapters
+`Python` `Claude AI` `Whisper` `LuaTeX`
 
-**Tech:** Python, Claude AI, Whisper, LuaTeX
-
-[View Repository →](https://github.com/mashi727/rehearsal-workflow)
-
-</td>
-<td width="50%">
-
-### 🎬 Movie Viewer
+### 🎬 [Movie Viewer](https://github.com/mashi727/movie-viewer)
 Professional video player with chapter management and waveform visualization
+`Python` `PySide6` `OpenCV` `PyQtGraph`
 
-**Tech:** Python, PySide6, OpenCV, PyQtGraph
-
-[View Repository →](https://github.com/mashi727/movie-viewer)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🌐 DeepL CLI
+### 🌐 [DeepL CLI](https://github.com/mashi727/deepl-cli)
 High-performance command-line translation tool with clipboard integration
+`Python` `DeepL API` `Unix Pipelines`
 
-**Tech:** Python, DeepL API, Unix Pipelines
-
-[View Repository →](https://github.com/mashi727/deepl-cli)
-
-</td>
-<td width="50%">
-
-### 📄 LuaTeX Docker Remote
+### 📄 [LuaTeX Docker Remote](https://github.com/mashi727/luatex-docker-remote)
 Remote LaTeX compilation with automatic network detection
+`Shell` `Docker` `LuaTeX` `SSH`
 
-**Tech:** Shell, Docker, LuaTeX, SSH
-
-[View Repository →](https://github.com/mashi727/luatex-docker-remote)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ✂️ Video Chapter Splitter
+### ✂️ [Video Chapter Splitter](https://github.com/mashi727/video-chapter-splitter)
 Smart video splitting with GPU acceleration and crossfade support
+`Python` `FFmpeg` `GPU Encoding`
 
-**Tech:** Python, FFmpeg, GPU Encoding
-
-[View Repository →](https://github.com/mashi727/video-chapter-splitter)
-
-</td>
-<td width="50%">
-
-### 🍳 ESP32 Sous Vide Controller
+### 🍳 [ESP32 Sous Vide Controller](https://github.com/mashi727/ESP32-SousVide-Controller)
 Professional sous vide controller with PID control and WiFi monitoring
+`C++` `ESP32` `PID Control` `IoT`
 
-**Tech:** C++, ESP32, PID Control, IoT
+---
 
-[View Repository →](https://github.com/mashi727/ESP32-SousVide-Controller)
+## 📈 Activity
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mashi727&theme=tokyo-night&hide_border=true)
 
 </td>
 </tr>
@@ -165,38 +86,8 @@ Professional sous vide controller with PID control and WiFi monitoring
 
 <div align="center">
 
-## 💡 What I'm Working On
-
-🔭 Building practical automation tools for daily workflows
-🌱 Exploring AI integration in developer tools
-🎯 Creating video processing and analysis solutions
-📚 Developing LaTeX document automation systems
-⚡ Experimenting with embedded systems and IoT
-
-</div>
-
----
-
-<div align="center">
-
-## 📈 Contribution Graph
-
-![Snake animation](https://raw.githubusercontent.com/mashi727/mashi727/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 Let's Connect!
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mashi727)
-
-<img src="https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-
----
-
 *"Building tools that make life easier, one commit at a time."*
+
+[![GitHub](https://img.shields.io/badge/GitHub-mashi727-181717?style=flat&logo=github)](https://github.com/mashi727)
 
 </div>
