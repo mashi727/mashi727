@@ -25,22 +25,6 @@ Software developer passionate about creating practical tools and automation solu
 
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mashi727&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
 
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-`Python` `Go` `JavaScript` `TypeScript` `Rust` `Shell` `C++`
-
-**Tools**
-`Docker` `Git` `FFmpeg` `LaTeX`
-
-**Frameworks**
-`PySide6` `Qt` `Tauri` `Node.js`
-
-**Environment**
-`Linux` `Vim` `VS Code`
-
 </td>
 <td width="70%" valign="top">
 
