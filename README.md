@@ -1,3 +1,7 @@
+<table>
+<tr>
+<td width="60%" valign="top">
+
 ## 🚀 About Me
 
 Software developer passionate about creating practical tools and automation solutions.
@@ -9,11 +13,8 @@ Software developer passionate about creating practical tools and automation solu
 - 🎵 Audio analysis applications
 - 🔧 IoT & embedded systems
 
----
-
-<table>
-<tr>
-<td width="30%" valign="top" align="center">
+</td>
+<td width="40%" valign="top" align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mashi727&label=Profile%20Views&color=blueviolet&style=flat)
 
@@ -26,7 +27,10 @@ Software developer passionate about creating practical tools and automation solu
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mashi727&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
 
 </td>
-<td width="70%" valign="top">
+</tr>
+</table>
+
+---
 
 ## 🌟 Featured Projects
 
