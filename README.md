@@ -13,6 +13,12 @@ Software developer passionate about creating practical tools and automation solu
 - 🎵 Audio analysis applications
 - 🔧 IoT & embedded systems
 
+### 💻 Development Environment
+- **OS**: macOS, Linux
+- **Editor**: Vim, VS Code
+- **Languages**: Python, Go, JavaScript/TypeScript, Rust, Shell, C++
+- **Tools**: Docker, Git, FFmpeg, LaTeX
+
 </td>
 <td width="40%" valign="top" align="center">
 
