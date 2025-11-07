@@ -84,13 +84,3 @@ Professional sous vide controller with PID control and WiFi monitoring
 </td>
 </tr>
 </table>
-
----
-
-<div align="center">
-
-*"Building tools that make life easier, one commit at a time."*
-
-[![GitHub](https://img.shields.io/badge/GitHub-mashi727-181717?style=flat&logo=github)](https://github.com/mashi727)
-
-</div>
