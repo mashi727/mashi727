@@ -6,13 +6,6 @@
 
 Software developer passionate about creating practical tools and automation solutions.
 
-### 💡 Current Focus
-- 🎬 Video processing & automation tools
-- 🤖 AI-powered workflow enhancement
-- 📄 Document generation systems
-- 🎵 Audio analysis applications
-- 🔧 IoT & embedded systems
-
 ### 💻 Development Environment
 - **OS**: macOS, Linux
 - **Editor**: Vim, VS Code
