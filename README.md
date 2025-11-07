@@ -76,6 +76,11 @@ Professional sous vide controller with PID control and WiFi monitoring
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/2ea043/mashi727)
 
+### Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 </td>
 </tr>
 </table>
