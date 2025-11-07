@@ -79,6 +79,7 @@ Professional sous vide controller with PID control and WiFi monitoring
 ### Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🚀 Published release [v1.0.0 - Initial Release](https://github.com/mashi727/rehearsal-workflow/releases/tag/v1.0.0) in [mashi727/rehearsal-workflow](https://github.com/mashi727/rehearsal-workflow)
 <!--END_SECTION:activity-->
 
 </td>
