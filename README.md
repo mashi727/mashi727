@@ -74,7 +74,7 @@ Professional sous vide controller with PID control and WiFi monitoring
 
 ## 📈 Contribution Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mashi727&theme=tokyo-night&hide_border=true&area=true)
+![GitHub Contribution Graph](https://ghchart.rshah.org/2ea043/mashi727)
 
 </td>
 </tr>
