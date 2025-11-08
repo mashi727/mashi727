@@ -53,10 +53,6 @@ Remote LaTeX compilation with automatic network detection
 Smart video splitting with GPU acceleration and crossfade support
 `Python` `FFmpeg` `GPU Encoding`
 
-### 🍳 [ESP32 Sous Vide Controller](https://github.com/mashi727/ESP32-SousVide-Controller)
-Professional sous vide controller with PID control and WiFi monitoring
-`C++` `ESP32` `PID Control` `IoT`
-
 </td>
 </tr>
 </table>
