@@ -53,6 +53,10 @@ Remote LaTeX compilation with automatic network detection
 Smart video splitting with GPU acceleration and crossfade support
 `Python` `FFmpeg` `GPU Encoding`
 
+### 📱 [iPhone G-Sensor](https://github.com/mashi727/iPhone-G-Sensor)
+iPhone motion sensor logger with dead reckoning and desktop visualization
+`Python` `Pythonista3` `PySide6` `PyQtGraph` `GSI Maps`
+
 </td>
 </tr>
 </table>
