@@ -33,6 +33,7 @@
 
 - VideoToolbox / NVENC / QSV / AMF によるハードウェアエンコード
 - macOS / Windows のバイナリを配布
+- movie-viewer / video-chapter-splitter / video-chapter-trimmer の後継（旧リポジトリはアーカイブ済み）
 
 [![Release](https://img.shields.io/github/v/release/mashi727/chaptr?include_prereleases&style=flat-square)](https://github.com/mashi727/chaptr/releases)
 
@@ -52,9 +53,6 @@
 | Project | |
 | --- | --- |
 | [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） |
-| [**movie-viewer**](https://github.com/mashi727/movie-viewer) | コマ送りとチャプター管理に対応した動画プレーヤー |
-| [**video-chapter-splitter**](https://github.com/mashi727/video-chapter-splitter) | チャプター情報に従って動画を分割（GPU エンコード対応） |
-| [**video-chapter-trimmer**](https://github.com/mashi727/video-chapter-trimmer) | 指定したチャプター（CM 等）を除いて動画を再構成 |
 | [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し |
 | [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 |
 
