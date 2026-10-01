@@ -4,8 +4,8 @@
 <text x="32" y="24" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" letter-spacing="2.5" fill="#7f88b8">#2 · LAST 30 DAYS</text>
 <text x="32" y="54" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="30" fill="#f4f1ff">chaptr</text>
 <text x="129" y="52" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="15" font-weight="600" fill="#e3dcff">波形を見ながら、動画にチャプターを。</text>
-<text x="33" y="79" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスク</text>
-<text x="33" y="99" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">トップアプリ（GPU エンコード、macOS / Windows）</text>
+<text x="33" y="79" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立</text>
+<text x="33" y="99" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow…</text>
 <rect x="661.5" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="674.8" y="79.4" width="10.3" height="8.6" rx="2" fill="url(#bar)"/>
 <rect x="688.2" y="70.9" width="10.3" height="17.1" rx="2" fill="url(#bar)"/>

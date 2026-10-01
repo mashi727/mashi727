@@ -17,7 +17,7 @@
     {
       "repo": "chaptr",
       "catch": "波形を見ながら、動画にチャプターを。",
-      "lead": "演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムで区切り、チャプター付きで書き出すデスクトップアプリ。media-scribe-workflow の章立てを担う。"
+      "lead": "演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ。人が決めるべき境界の判断だけを GUI に残し、書き出しは media-scribe-workflow の CLI に任せている。"
     },
     {
       "repo": "iq-analyzer",
@@ -37,7 +37,7 @@
   "projects": {
     "chaptr": {
       "cat": "video",
-      "desc": "波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）",
+      "desc": "演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う",
       "tagline": "波形を見ながら、動画にチャプターを。"
     },
     "media-scribe-workflow": {
