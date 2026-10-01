@@ -203,12 +203,16 @@ def build_now(repos: list[dict]) -> str:
             card.write_text(svg, encoding="utf-8")
         keep.add(card.name)
         shot = screenshot_of(r)
+        # 画像リンクは押せると気づかれにくいので、カード直下に明示の文字リンクを置く
+        link = f'<p align="right"><a href="{r["html_url"]}"><b>→ {html.escape(r["full_name"])} を開く</b></a></p>'
         body = [f'<a href="{r["html_url"]}"><img src="assets/now/{card.name}" alt="{html.escape(r["name"])} の直近の活動" width="100%"></a>']
+        body.append(link)
         if shot:
             body.append(f'<a href="{r["html_url"]}"><img src="{html.escape(shot)}" alt="{html.escape(r["name"])} の画面" width="100%"></a>')
         blocks.append(
             f"<details{' open' if i == 0 else ''}>\n"
-            f"<summary><b>{RANK[i]} {html.escape(r['name'])}</b> — 🔥 {len(dates)} commits / {CONFIG['window_days']}日"
+            f"<summary>{RANK[i]} <a href=\"{r['html_url']}\"><b>{html.escape(r['name'])}</b></a>"
+            f" — 🔥 {len(dates)} commits / {CONFIG['window_days']}日"
             f" · <sub>{html.escape(r.get('language') or '')}</sub></summary>\n<br>\n\n"
             + "\n".join(body)
             + "\n\n</details>"

@@ -22,25 +22,28 @@
 
 <!-- NOW:START -->
 <details open>
-<summary><b>🥇 book-viewer</b> — 🔥 19 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 19 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
+<p align="right"><a href="https://github.com/mashi727/book-viewer"><b>→ mashi727/book-viewer を開く</b></a></p>
 <a href="https://github.com/mashi727/book-viewer"><img src="https://raw.githubusercontent.com/mashi727/book-viewer/main/docs/images/main.png" alt="book-viewer の画面" width="100%"></a>
 
 </details>
 <details>
-<summary><b>🥈 chaptr</b> — 🔥 16 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 16 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
+<p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
 
 </details>
 <details>
-<summary><b>🥉 media-scribe-workflow</b> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
+<p align="right"><a href="https://github.com/mashi727/media-scribe-workflow"><b>→ mashi727/media-scribe-workflow を開く</b></a></p>
 
 </details>
 <!-- NOW:END -->
