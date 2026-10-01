@@ -124,8 +124,10 @@ def wrap(s: str, size: float, width: float, max_lines: int) -> list[str]:
 
 
 def make_card(rank: int, repo: dict, dates: list[datetime]) -> str:
-    """横一列の活動カード。左: 名前・タグライン・説明 2 行 / 中: 日別コミット / 右: 件数・言語。"""
-    W, H = 1280, 116
+    """横長の活動カード。スマホでは 1/3 程度に縮むので、文字は大きく少なく:
+    左に名前、中央に日別コミットの棒、右に件数。説明文はカードに入れず、
+    README 本文のテキストとして下に置く（どの幅でも読めるように）。"""
+    W, H = 1280, 160
     days = CONFIG["window_days"]
     today = datetime.now(JST).date()
     bins = [0] * days
@@ -134,32 +136,21 @@ def make_card(rank: int, repo: dict, dates: list[datetime]) -> str:
         if 0 <= k < days:
             bins[days - 1 - k] += 1
     peak = max(bins) or 1
-    x0, x1, base, hmax = 660, 1060, 88, 60
+    x0, x1, base, hmax = 560, 1010, 128, 92
     slot = (x1 - x0) / days
     bars = []
     for i, n in enumerate(bins):
-        x = x0 + i * slot + 1.5
+        x = x0 + i * slot + 2
         if n:
-            h = max(4, hmax * n / peak)
-            bars.append(f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{slot - 3:.1f}" height="{h:.1f}" rx="2" fill="url(#bar)"/>')
+            h = max(6, hmax * n / peak)
+            bars.append(f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{slot - 4:.1f}" height="{h:.1f}" rx="3" fill="url(#bar)"/>')
         else:
-            bars.append(f'<rect x="{x:.1f}" y="{base - 2}" width="{slot - 3:.1f}" height="2" rx="1" fill="#3a4170"/>')
-    meta = CONFIG["projects"].get(repo["name"], {})
+            bars.append(f'<rect x="{x:.1f}" y="{base - 3}" width="{slot - 4:.1f}" height="3" rx="1.5" fill="#3a4170"/>')
     esc = html.escape
-    jp = "'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif"
     serif = "'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif"
     sans = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
     name = repo["name"]
-    left_w = x0 - 32 - 40  # 左ブロックの幅
-    # タグラインは名前の右に並べる(はみ出す分は省略)
-    tag_x = 32 + text_width(name, 30) * 0.8 + 16
-    tagline = meta.get("tagline") or ""
-    if tagline:
-        tagline = (wrap(tagline, 15, 32 + left_w - tag_x, 1) or [""])[0]
-    desc = re.sub(r"`([^`]+)`", r"\1", meta.get("desc") or repo.get("description") or "")
-    desc_lines = wrap(desc, 14, left_w, 2)
-    start = (today - timedelta(days=days - 1)).strftime("%m/%d")
-    lang = esc((repo.get("language") or "").upper())
+    size = 54 if len(name) <= 14 else max(34, int(54 * 14 / len(name)))
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
         f'aria-label="{esc(name)}: {len(dates)} commits in the last {days} days">',
@@ -167,20 +158,12 @@ def make_card(rank: int, repo: dict, dates: list[datetime]) -> str:
         '<stop offset="1" stop-color="#1b1640"/></linearGradient>'
         '<linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38d6ff"/>'
         '<stop offset="1" stop-color="#ff7ad9"/></linearGradient></defs>',
-        f'<rect width="{W}" height="{H}" rx="12" fill="url(#bg)"/>',
-        f'<text x="32" y="24" font-family="{sans}" font-size="10" letter-spacing="2.5" fill="#7f88b8">#{rank} · LAST {days} DAYS</text>',
-        f'<text x="32" y="54" font-family="{serif}" font-size="30" fill="#f4f1ff">{esc(name)}</text>',
-    ]
-    if tagline:
-        parts.append(f'<text x="{tag_x:.0f}" y="52" font-family="{jp}" font-size="15" font-weight="600" fill="#e3dcff">{esc(tagline)}</text>')
-    for k, line in enumerate(desc_lines):
-        parts.append(f'<text x="33" y="{79 + k * 20}" font-family="{jp}" font-size="14" fill="#b9c0e8">{esc(line)}</text>')
-    parts += [
+        f'<rect width="{W}" height="{H}" rx="14" fill="url(#bg)"/>',
+        f'<text x="40" y="52" font-family="{sans}" font-size="22" letter-spacing="3" fill="#8f97c4">#{rank} · {days} DAYS</text>',
+        f'<text x="40" y="118" font-family="{serif}" font-size="{size}" fill="#f4f1ff">{esc(name)}</text>',
         *bars,
-        f'<text x="{x0}" y="106" font-family="{sans}" font-size="10" fill="#6c74a6">{start}</text>',
-        f'<text x="{x1}" y="106" text-anchor="end" font-family="{sans}" font-size="10" fill="#6c74a6">today</text>',
-        f'<text x="{W - 32}" y="66" text-anchor="end" font-family="{serif}" font-size="48" fill="#ffffff">{len(dates)}</text>',
-        f'<text x="{W - 32}" y="90" text-anchor="end" font-family="{sans}" font-size="11" letter-spacing="2" fill="#9aa3d4">COMMITS · {lang}</text>',
+        f'<text x="{W - 40}" y="104" text-anchor="end" font-family="{serif}" font-size="76" fill="#ffffff">{len(dates)}</text>',
+        f'<text x="{W - 40}" y="136" text-anchor="end" font-family="{sans}" font-size="20" letter-spacing="2" fill="#9aa3d4">COMMITS</text>',
         "</svg>",
     ]
     return "\n".join(parts) + "\n"
@@ -207,6 +190,7 @@ def build_now(repos: list[dict]) -> str:
         # 画像リンクは押せると気づかれにくいので、カード直下に明示の文字リンクを置く
         link = f'<p align="right"><a href="{r["html_url"]}"><b>→ {html.escape(r["full_name"])} を開く</b></a></p>'
         body = [f'<a href="{r["html_url"]}"><img src="assets/now/{card.name}" alt="{html.escape(r["name"])} の直近の活動" width="100%"></a>']
+        body.append(f"<p>{inline(desc_of(r))}</p>")
         body.append(link)
         if shot:
             body.append(f'<a href="{r["html_url"]}"><img src="{html.escape(shot)}" alt="{html.escape(r["name"])} の画面" width="100%"></a>')
@@ -276,10 +260,9 @@ def build_index(repos: list[dict]) -> str:
     # 分野は「その分野で最後に push された日時」の新しい順
     for cat in sorted(groups, key=lambda c: groups[c][0]["pushed_at"], reverse=True):
         out.append(f"#### {cats[cat]}\n")
-        out.append("| Project | | Updated |\n| --- | --- | --- |")
+
         for r in groups[cat]:
-            name = r["name"].replace("-", NBH)
-            out.append(f"| [**{name}**]({r['html_url']}) | {desc_of(r)} | {r['pushed_at'][:7].replace('-', NBH)} |")
+            out.append(f"- [**{r['name']}**]({r['html_url']}) — {desc_of(r)} <sub>{r['pushed_at'][:7].replace('-', NBH)}</sub>")
         out.append("")
     return "\n".join(out).rstrip()
 
