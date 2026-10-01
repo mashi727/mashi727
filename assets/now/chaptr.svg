@@ -6,12 +6,12 @@
 <text x="129" y="52" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="15" font-weight="600" fill="#e3dcff">波形を見ながら、動画にチャプターを。</text>
 <text x="33" y="79" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立</text>
 <text x="33" y="99" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="14" fill="#b9c0e8">てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow…</text>
-<rect x="661.5" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
-<rect x="674.8" y="79.4" width="10.3" height="8.6" rx="2" fill="url(#bar)"/>
-<rect x="688.2" y="70.9" width="10.3" height="17.1" rx="2" fill="url(#bar)"/>
-<rect x="701.5" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
-<rect x="714.8" y="28.0" width="10.3" height="60.0" rx="2" fill="url(#bar)"/>
-<rect x="728.2" y="36.6" width="10.3" height="51.4" rx="2" fill="url(#bar)"/>
+<rect x="661.5" y="79.4" width="10.3" height="8.6" rx="2" fill="url(#bar)"/>
+<rect x="674.8" y="70.9" width="10.3" height="17.1" rx="2" fill="url(#bar)"/>
+<rect x="688.2" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
+<rect x="701.5" y="28.0" width="10.3" height="60.0" rx="2" fill="url(#bar)"/>
+<rect x="714.8" y="36.6" width="10.3" height="51.4" rx="2" fill="url(#bar)"/>
+<rect x="728.2" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="741.5" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="754.8" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="768.2" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
@@ -34,9 +34,9 @@
 <rect x="994.8" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="1008.2" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
 <rect x="1021.5" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
-<rect x="1034.8" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
-<rect x="1048.2" y="79.4" width="10.3" height="8.6" rx="2" fill="url(#bar)"/>
-<text x="660" y="106" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#6c74a6">09/02</text>
+<rect x="1034.8" y="79.4" width="10.3" height="8.6" rx="2" fill="url(#bar)"/>
+<rect x="1048.2" y="86" width="10.3" height="2" rx="1" fill="#3a4170"/>
+<text x="660" y="106" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#6c74a6">09/03</text>
 <text x="1060" y="106" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#6c74a6">today</text>
 <text x="1248" y="66" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="48" fill="#ffffff">17</text>
 <text x="1248" y="90" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" letter-spacing="2" fill="#9aa3d4">COMMITS · PYTHON</text>

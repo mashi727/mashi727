@@ -227,11 +227,15 @@ def build_now(repos: list[dict]) -> str:
 
 
 def build_featured(repos: list[dict]) -> str:
-    """代表作。画像（各 README から。featured の image でリポジトリ内パスを指定可）と説明を
-    左右交互の 2 列で並べる。Now（作業量で毎日入れ替わる）とは別に、手で選ぶ段。"""
+    """代表作。Now（作業量で毎日入れ替わる）とは別に、手で選ぶ段。
+
+    表の 2 列にするとスマホで画像が縮み、名前も折り返して崩れる（README では
+    画面幅に応じて CSS を切り替えられない）。どの幅でも同じに流れるよう縦に積む:
+    番号・名前 → キャッチ → 全幅の画像 → 説明 → リンク。
+    画像は各 README から（featured の image でリポジトリ内パスを指定可）。"""
     by_name = {r["name"]: r for r in repos}
     cats = CONFIG["categories"]
-    rows = []
+    blocks = []
     for n, f in enumerate(CONFIG.get("featured", []), 1):
         r = by_name.get(f["repo"])
         if not r:
@@ -242,22 +246,19 @@ def build_featured(repos: list[dict]) -> str:
         else:
             img = screenshot_of(r)
         cat = cats.get(CONFIG["projects"].get(r["name"], {}).get("cat", "other"), "")
-        pic = (
-            f'<td width="58%" valign="middle"><a href="{url}"><img src="{html.escape(img)}" '
-            f'alt="{html.escape(r["name"])} の画面" width="100%"></a></td>'
-            if img else '<td width="58%"></td>'
-        )
-        text = (
-            f'<td width="42%" valign="middle">\n'
-            f"<sub>{n:02d} · {html.escape(cat)}</sub>\n"
-            f'<h3><a href="{url}">{html.escape(r["name"])}</a></h3>\n'
-            f"<p><b>{html.escape(f['catch'])}</b></p>\n"
-            f"<p>{inline(f['lead'])}</p>\n"
-            f'<p><a href="{url}">→ {html.escape(r["full_name"])} を開く</a></p>\n</td>'
-        )
-        cells = [pic, text] if n % 2 else [text, pic]
-        rows.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>" if rows else ""
+        parts = [
+            f"<sub>{n:02d} · {html.escape(cat)}</sub>",
+            "",
+            f'### [{r["name"]}]({url})',
+            "",
+            f"**{f['catch']}**",
+            "",
+        ]
+        if img:
+            parts += [f'<a href="{url}"><img src="{html.escape(img)}" alt="{html.escape(r["name"])} の画面" width="100%"></a>', ""]
+        parts += [inline(f["lead"]), "", f'<sub><a href="{url}">→ {html.escape(r["full_name"])} を開く</a></sub>']
+        blocks.append("\n".join(parts))
+    return "\n\n<br>\n\n".join(blocks)
 
 
 def inline(md: str) -> str:

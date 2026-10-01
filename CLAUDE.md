@@ -23,7 +23,7 @@ mashi727/
 ## README の構成
 
 1. バナー（SVG）、一行の紹介、技術バッジ — 手書き
-2. **✦ Featured** — `projects.json` の `featured`（代表作・手で選ぶ）。画像とテキストを左右交互の 2 列で並べる。
+2. **✦ Featured** — `projects.json` の `featured`（代表作・手で選ぶ）。番号・名前 → キャッチ → 全幅の画像 → 説明 → リンクの縦積み（表にするとスマホで崩れるため）。
    画像は各 repo の README の最初の非バッジ画像、`image` でリポジトリ内パスを指定可。キャッチ `catch` と説明 `lead` を持つ
 2a. **⚡ Now** — 直近 `window_days` 日のコミット数（default ブランチ）が多い上位 `now_count` 件。同数は最終 push 順、0 件は出さない（自動）。
    各項目は `<details>` の開閉式タブ（1 位だけ open）。中身は活動カード（説明・30 日の日別コミット棒グラフ）と、

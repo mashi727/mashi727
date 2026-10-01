@@ -19,38 +19,45 @@
 ## ✦ Featured — 代表作
 
 <!-- FEATURED:START -->
-<table>
-<tr>
-<td width="58%" valign="middle"><a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a></td>
-<td width="42%" valign="middle">
 <sub>01 · 🎬 Video &amp; Audio</sub>
-<h3><a href="https://github.com/mashi727/media-scribe-workflow">media-scribe-workflow</a></h3>
-<p><b>録画を、引き直せる知識に。</b></p>
-<p>動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。</p>
-<p><a href="https://github.com/mashi727/media-scribe-workflow">→ mashi727/media-scribe-workflow を開く</a></p>
-</td>
-</tr>
-<tr>
-<td width="42%" valign="middle">
+
+### [media-scribe-workflow](https://github.com/mashi727/media-scribe-workflow)
+
+**録画を、引き直せる知識に。**
+
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
+
+動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。
+
+<sub><a href="https://github.com/mashi727/media-scribe-workflow">→ mashi727/media-scribe-workflow を開く</a></sub>
+
+<br>
+
 <sub>02 · 🎬 Video &amp; Audio</sub>
-<h3><a href="https://github.com/mashi727/chaptr">chaptr</a></h3>
-<p><b>波形を見ながら、動画にチャプターを。</b></p>
-<p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ。人が決めるべき境界の判断だけを GUI に残し、書き出しは media-scribe-workflow の CLI に任せている。</p>
-<p><a href="https://github.com/mashi727/chaptr">→ mashi727/chaptr を開く</a></p>
-</td>
-<td width="58%" valign="middle"><a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a></td>
-</tr>
-<tr>
-<td width="58%" valign="middle"><a href="https://github.com/mashi727/iq-analyzer"><img src="https://raw.githubusercontent.com/mashi727/iq-analyzer/main/docs/images/spectrogram_detail.png" alt="iq-analyzer の画面" width="100%"></a></td>
-<td width="42%" valign="middle">
+
+### [chaptr](https://github.com/mashi727/chaptr)
+
+**波形を見ながら、動画にチャプターを。**
+
+<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
+
+演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ。人が決めるべき境界の判断だけを GUI に残し、書き出しは media-scribe-workflow の CLI に任せている。
+
+<sub><a href="https://github.com/mashi727/chaptr">→ mashi727/chaptr を開く</a></sub>
+
+<br>
+
 <sub>03 · 📈 Measurement &amp; Science</sub>
-<h3><a href="https://github.com/mashi727/iq-analyzer">iq-analyzer</a></h3>
-<p><b>100 GB 級の IQ 計測データを、普通の PC で。</b></p>
-<p>Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧する。振幅エンベロープのキャッシュで 121 GB の WVD を 1.6 秒で開き、スペクトログラムはメモリ一定で計算する。</p>
-<p><a href="https://github.com/mashi727/iq-analyzer">→ mashi727/iq-analyzer を開く</a></p>
-</td>
-</tr>
-</table>
+
+### [iq-analyzer](https://github.com/mashi727/iq-analyzer)
+
+**100 GB 級の IQ 計測データを、普通の PC で。**
+
+<a href="https://github.com/mashi727/iq-analyzer"><img src="https://raw.githubusercontent.com/mashi727/iq-analyzer/main/docs/images/spectrogram_detail.png" alt="iq-analyzer の画面" width="100%"></a>
+
+Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧する。振幅エンベロープのキャッシュで 121 GB の WVD を 1.6 秒で開き、スペクトログラムはメモリ一定で計算する。
+
+<sub><a href="https://github.com/mashi727/iq-analyzer">→ mashi727/iq-analyzer を開く</a></sub>
 <!-- FEATURED:END -->
 
 ## ⚡ Now — この1か月、いちばん手を動かしているもの
