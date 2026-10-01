@@ -9,7 +9,7 @@ GitHub プロフィールページ（`github.com/mashi727`）の README を管�
 ```
 mashi727/
 ├── README.md                 # プロフィール本体。<!-- X:START/END --> の区間は自動生成
-├── projects.json             # 各リポジトリの分野・説明文、Showcase、除外リスト
+├── projects.json             # 各リポジトリの分野・説明文・タグライン・画像の上書き、除外リスト
 ├── assets/banner.svg         # 冒頭のバナー（scripts/make_banner.py で生成）
 ├── assets/now/<repo>.svg     # Now の活動カード（build_readme.py が生成・不要分は削除）
 ├── scripts/
