@@ -40,11 +40,12 @@
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
 <p align="right"><a href="https://github.com/mashi727/media-scribe-workflow"><b>→ mashi727/media-scribe-workflow を開く</b></a></p>
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
@@ -58,9 +59,9 @@
 
 | Project | | Updated |
 | --- | --- | --- |
+| [**media‑scribe‑workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） | 2026‑10 |
 | [**chaptr**](https://github.com/mashi727/chaptr) | 波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows） | 2026‑10 |
 | [**fb‑video‑downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 | 2026‑09 |
-| [**media‑scribe‑workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） | 2026‑09 |
 | [**youtube‑cover‑cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し | 2025‑12 |
 
 #### 📈 Measurement & Science
