@@ -1,6 +1,7 @@
 {
   "user": "mashi727",
   "now_count": 3,
+  "window_days": 30,
   "exclude": [
     "mashi727",
     "zenn-contents",

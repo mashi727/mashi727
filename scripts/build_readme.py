@@ -1,6 +1,6 @@
 """README.md の自動生成区間を、公開リポジトリの最終 push 日時順で組み直す。
 
-- NOW      : 直近に push した上位 N 件
+- NOW      : 直近 window_days 日のコミット数が多い上位 N 件(ワークロード順)
 - SHOWCASE : projects.json の showcase を最近更新した順に
 - INDEX    : 分野ごとの一覧。分野も行も最近更新した順
 
@@ -13,7 +13,9 @@ import html
 import json
 import os
 import re
+import urllib.error
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -22,20 +24,50 @@ README = ROOT / "README.md"
 NBH = "\u2011"  # 改行されないハイフン(表の列幅が狭いときに名前・日付が割れないように)
 
 
-def fetch_repos(user: str) -> list[dict]:
-    url = f"https://api.github.com/users/{user}/repos?per_page=100&type=owner&sort=pushed"
+def api_get(url: str) -> tuple[list | dict, str | None]:
+    """GitHub REST API を叩き、(JSON, 次ページの URL) を返す。"""
     req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=30) as r:
-        repos = json.load(r)
+        m = re.search(r'<([^>]+)>;\s*rel="next"', r.headers.get("Link") or "")
+        return json.load(r), (m.group(1) if m else None)
+
+
+def fetch_repos(user: str) -> list[dict]:
+    repos, _ = api_get(f"https://api.github.com/users/{user}/repos?per_page=100&type=owner&sort=pushed")
     excluded = set(CONFIG["exclude"])
     repos = [
         r for r in repos
         if not (r["private"] or r["fork"] or r["archived"] or r["name"] in excluded)
     ]
     return sorted(repos, key=lambda r: r["pushed_at"], reverse=True)
+
+
+def count_commits(repo: dict, since: str) -> int:
+    """default ブランチに since 以降に入ったコミット数。"""
+    url: str | None = f"https://api.github.com/repos/{repo['full_name']}/commits?since={since}&per_page=100"
+    n = 0
+    while url:
+        try:
+            page, url = api_get(url)
+        except urllib.error.HTTPError as e:
+            if e.code == 409:  # 空のリポジトリ
+                return 0
+            raise
+        n += len(page)
+    return n
+
+
+def workload(repos: list[dict]) -> list[tuple[dict, int]]:
+    """直近 window_days 日のコミット数が多い順。同数なら最終 push が新しい順。0 件は除く。"""
+    since_dt = datetime.now(timezone.utc) - timedelta(days=CONFIG["window_days"])
+    since = since_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # push がそれより古いリポジトリには期間内のコミットが無いので問い合わせない
+    counted = [(r, count_commits(r, since)) for r in repos if r["pushed_at"] >= since]
+    counted = [(r, n) for r, n in counted if n > 0]
+    return sorted(counted, key=lambda t: (t[1], t[0]["pushed_at"]), reverse=True)
 
 
 def desc_of(repo: dict) -> str:
@@ -49,14 +81,21 @@ def inline(md: str) -> str:
 
 
 def build_now(repos: list[dict]) -> str:
-    n = CONFIG["now_count"]
+    top = workload(repos)[: CONFIG["now_count"]]
+    if not top:
+        return f"<sub>直近 {CONFIG['window_days']} 日のコミットはありません。</sub>"
+    n = len(top)
+    peak = top[0][1]
     cells = []
-    for r in repos[:n]:
+    for r, commits in top:
         lang = f"<code>{html.escape(r['language'])}</code> · " if r.get("language") else ""
+        bar = "▰" * max(1, round(10 * commits / peak))
+        bar += "▱" * (10 - len(bar))
         cells.append(
             f'<td valign="top" width="{100 // n}%">\n'
             f'<a href="{r["html_url"]}"><b>{html.escape(r["name"])}</b></a><br>\n'
             f"<sub>{inline(desc_of(r))}</sub><br><br>\n"
+            f"<sub>🔥 <code>{bar}</code> <b>{commits}</b> commits / {CONFIG['window_days']}日</sub><br>\n"
             f"<sub>{lang}🕒 {r['pushed_at'][:10]}</sub>\n</td>"
         )
     return "<table>\n<tr>\n" + "\n".join(cells) + "\n</tr>\n</table>"

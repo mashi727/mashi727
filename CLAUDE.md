@@ -22,7 +22,7 @@ mashi727/
 ## README の構成
 
 1. バナー（SVG）、一行の紹介、技術バッジ — 手書き
-2. **⚡ Now** — 直近に push した公開リポジトリ上位 `now_count` 件（自動）
+2. **⚡ Now** — 直近 `window_days` 日のコミット数（default ブランチ）が多い上位 `now_count` 件。同数は最終 push 順、0 件は出さない（自動）
 3. **✦ Showcase** — `projects.json` の `showcase`。スクリーンショット付き（自動・更新順）
 4. **🗂 All projects** — 分野ごとの表。分野も行も最終 push の新しい順（自動）
 5. Contribution graph（snake、`<details>` 内）— 手書き

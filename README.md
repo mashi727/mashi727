@@ -16,25 +16,28 @@
   <img src="https://img.shields.io/badge/LuaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LuaTeX">
 </p>
 
-## ⚡ Now — いま手を動かしているもの
+## ⚡ Now — この1か月、いちばん手を動かしているもの
 
 <!-- NOW:START -->
 <table>
 <tr>
 <td valign="top" width="33%">
-<a href="https://github.com/mashi727/iPhone-G-Sensor"><b>iPhone-G-Sensor</b></a><br>
-<sub>iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化</sub><br><br>
-<sub><code>Python</code> · 🕒 2026-10-01</sub>
+<a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a><br>
+<sub>自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持</sub><br><br>
+<sub>🔥 <code>▰▰▰▰▰▰▰▰▰▰</code> <b>19</b> commits / 30日</sub><br>
+<sub><code>Python</code> · 🕒 2026-09-28</sub>
 </td>
 <td valign="top" width="33%">
-<a href="https://github.com/mashi727/enquete"><b>enquete</b></a><br>
-<sub>紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で</sub><br><br>
+<a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a><br>
+<sub>波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）</sub><br><br>
+<sub>🔥 <code>▰▰▰▰▰▰▰▰▱▱</code> <b>16</b> commits / 30日</sub><br>
 <sub><code>Python</code> · 🕒 2026-09-30</sub>
 </td>
 <td valign="top" width="33%">
-<a href="https://github.com/mashi727/iq-analyzer"><b>iq-analyzer</b></a><br>
-<sub>Rohde &amp; Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア</sub><br><br>
-<sub><code>Python</code> · 🕒 2026-09-30</sub>
+<a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a><br>
+<sub>動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram）</sub><br><br>
+<sub>🔥 <code>▰▰▰▱▱▱▱▱▱▱</code> <b>6</b> commits / 30日</sub><br>
+<sub><code>Python</code> · 🕒 2026-09-07</sub>
 </td>
 </tr>
 </table>
