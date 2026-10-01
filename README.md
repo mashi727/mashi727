@@ -92,6 +92,20 @@
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🧰 CLI & Utilities
+
+| Project | | Updated |
+| --- | --- | --- |
+| [**claude‑imedict**](https://github.com/mashi727/claude-imedict) | Claude Code の対話履歴から自分の語彙を抽出し、macOS 標準と azooKey のユーザー辞書を生成する（読みは macOS 内蔵のトークナイザで推定） | 2026‑10 |
+| [**deepl‑cli**](https://github.com/mashi727/deepl-cli) | DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 | 2025‑10 |
+| [**qrgene**](https://github.com/mashi727/qrgene) | Excel の一覧から QR コードを生成し PDF に割り付け（Go） | 2022‑09 |
+
+#### 🧭 Ideas & Workflow
+
+| Project | | Updated |
+| --- | --- | --- |
+| [**tool‑philosophy**](https://github.com/mashi727/tool-philosophy) | コンピューターを使う上での考え方（UNIX 哲学・配管と陶器）と、道具の標準化・端末間の運用の記録 | 2026‑10 |
+
 #### 🎬 Video & Audio
 
 | Project | | Updated |
@@ -122,13 +136,6 @@
 | [**macos‑vision‑ocr**](https://github.com/mashi727/macos-vision-ocr) | Apple Vision による PDF OCR の CLI（オフライン・多言語） | 2026‑05 |
 | [**luatex‑docker‑remote**](https://github.com/mashi727/luatex-docker-remote) | リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 | 2025‑11 |
 | [**markdown‑uploader**](https://github.com/mashi727/markdown-uploader) | Markdown（数式・画像・コールアウト）を Notion へアップロード | 2025‑08 |
-
-#### 🧰 CLI & Utilities
-
-| Project | | Updated |
-| --- | --- | --- |
-| [**deepl‑cli**](https://github.com/mashi727/deepl-cli) | DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 | 2025‑10 |
-| [**qrgene**](https://github.com/mashi727/qrgene) | Excel の一覧から QR コードを生成し PDF に割り付け（Go） | 2022‑09 |
 <!-- INDEX:END -->
 
 ---

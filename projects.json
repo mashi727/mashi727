@@ -31,6 +31,7 @@
     "docs": "📄 Documents & PDF",
     "science": "📈 Measurement & Science",
     "cli": "🧰 CLI & Utilities",
+    "ideas": "🧭 Ideas & Workflow",
     "other": "🧪 Others"
   },
   "projects": {
@@ -107,6 +108,14 @@
     "qrgene": {
       "cat": "cli",
       "desc": "Excel の一覧から QR コードを生成し PDF に割り付け（Go）"
+    },
+    "claude-imedict": {
+      "cat": "cli",
+      "desc": "Claude Code の対話履歴から自分の語彙を抽出し、macOS 標準と azooKey のユーザー辞書を生成する（読みは macOS 内蔵のトークナイザで推定）"
+    },
+    "tool-philosophy": {
+      "cat": "ideas",
+      "desc": "コンピューターを使う上での考え方（UNIX 哲学・配管と陶器）と、道具の標準化・端末間の運用の記録"
     }
   }
 }
