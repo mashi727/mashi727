@@ -1,5 +1,6 @@
 """README.md の自動生成区間と、Now の活動カード SVG を組み直す。
 
+- FEATURED: projects.json の featured（代表作）。画像とテキストを左右交互に並べる。
 - NOW   : 直近 window_days 日のコミット数が多い上位 N 件(ワークロード順)。
           各項目は <details> の開閉式タブで、中に活動カード(assets/now/<repo>.svg)と、
           リポジトリの README から拾った画面画像を置く。1 位だけ最初から開く。
@@ -225,6 +226,45 @@ def build_now(repos: list[dict]) -> str:
     return "\n".join(blocks)
 
 
+def build_featured(repos: list[dict]) -> str:
+    """代表作。画像（各 README から。featured の image でリポジトリ内パスを指定可）と説明を
+    左右交互の 2 列で並べる。Now（作業量で毎日入れ替わる）とは別に、手で選ぶ段。"""
+    by_name = {r["name"]: r for r in repos}
+    cats = CONFIG["categories"]
+    rows = []
+    for n, f in enumerate(CONFIG.get("featured", []), 1):
+        r = by_name.get(f["repo"])
+        if not r:
+            continue
+        url = r["html_url"]
+        if f.get("image"):
+            img = f"https://raw.githubusercontent.com/{r['full_name']}/{r['default_branch']}/{f['image']}"
+        else:
+            img = screenshot_of(r)
+        cat = cats.get(CONFIG["projects"].get(r["name"], {}).get("cat", "other"), "")
+        pic = (
+            f'<td width="58%" valign="middle"><a href="{url}"><img src="{html.escape(img)}" '
+            f'alt="{html.escape(r["name"])} の画面" width="100%"></a></td>'
+            if img else '<td width="58%"></td>'
+        )
+        text = (
+            f'<td width="42%" valign="middle">\n'
+            f"<sub>{n:02d} · {html.escape(cat)}</sub>\n"
+            f'<h3><a href="{url}">{html.escape(r["name"])}</a></h3>\n'
+            f"<p><b>{html.escape(f['catch'])}</b></p>\n"
+            f"<p>{inline(f['lead'])}</p>\n"
+            f'<p><a href="{url}">→ {html.escape(r["full_name"])} を開く</a></p>\n</td>'
+        )
+        cells = [pic, text] if n % 2 else [text, pic]
+        rows.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
+    return "<table>\n" + "\n".join(rows) + "\n</table>" if rows else ""
+
+
+def inline(md: str) -> str:
+    """HTML の中に置く説明文: エスケープしつつ `code` だけ <code> にする。"""
+    return re.sub(r"`([^`]+)`", r"<code>\1</code>", html.escape(md))
+
+
 def build_index(repos: list[dict]) -> str:
     cats = CONFIG["categories"]
     groups: dict[str, list[dict]] = {}
@@ -253,7 +293,8 @@ def replace(text: str, key: str, body: str) -> str:
 def main() -> None:
     repos = fetch_repos(CONFIG["user"])
     text = README.read_text(encoding="utf-8")
-    new = replace(text, "NOW", build_now(repos))
+    new = replace(text, "FEATURED", build_featured(repos))
+    new = replace(new, "NOW", build_now(repos))
     new = replace(new, "INDEX", build_index(repos))
     if new != text:
         README.write_text(new, encoding="utf-8")

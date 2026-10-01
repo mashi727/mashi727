@@ -13,7 +13,7 @@ mashi727/
 ├── assets/banner.svg         # 冒頭のバナー（scripts/make_banner.py で生成）
 ├── assets/now/<repo>.svg     # Now の活動カード（build_readme.py が生成・不要分は削除）
 ├── scripts/
-│   ├── build_readme.py       # NOW / INDEX 区間と活動カードを再生成（標準ライブラリのみ）
+│   ├── build_readme.py       # FEATURED / NOW / INDEX 区間と活動カードを再生成（標準ライブラリのみ）
 │   └── make_banner.py        # バナー SVG の生成
 └── .github/workflows/
     ├── readme.yml            # 毎日 06:17 JST と projects.json 変更時に build_readme.py を実行し、差分があればコミット
@@ -23,7 +23,9 @@ mashi727/
 ## README の構成
 
 1. バナー（SVG）、一行の紹介、技術バッジ — 手書き
-2. **⚡ Now** — 直近 `window_days` 日のコミット数（default ブランチ）が多い上位 `now_count` 件。同数は最終 push 順、0 件は出さない（自動）。
+2. **✦ Featured** — `projects.json` の `featured`（代表作・手で選ぶ）。画像とテキストを左右交互の 2 列で並べる。
+   画像は各 repo の README の最初の非バッジ画像、`image` でリポジトリ内パスを指定可。キャッチ `catch` と説明 `lead` を持つ
+2a. **⚡ Now** — 直近 `window_days` 日のコミット数（default ブランチ）が多い上位 `now_count` 件。同数は最終 push 順、0 件は出さない（自動）。
    各項目は `<details>` の開閉式タブ（1 位だけ open）。中身は活動カード（説明・30 日の日別コミット棒グラフ）と、
    その repo の README から拾った最初の画面画像（バッジ類は除外）。`projects.json` の `image` で上書き、`false` で非表示
 3. **🗂 All projects** — 分野ごとの表。分野も行も最終 push の新しい順（自動）

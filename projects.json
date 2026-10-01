@@ -8,6 +8,24 @@
     "finance_viz",
     "get_blood_data"
   ],
+  "featured": [
+    {
+      "repo": "media-scribe-workflow",
+      "catch": "録画を、引き直せる知識に。",
+      "lead": "動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。"
+    },
+    {
+      "repo": "chaptr",
+      "catch": "波形を見ながら、動画にチャプターを。",
+      "lead": "演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムで区切り、チャプター付きで書き出すデスクトップアプリ。media-scribe-workflow の章立てを担う。"
+    },
+    {
+      "repo": "iq-analyzer",
+      "catch": "100 GB 級の IQ 計測データを、普通の PC で。",
+      "lead": "Rohde & Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧する。振幅エンベロープのキャッシュで 121 GB の WVD を 1.6 秒で開き、スペクトログラムはメモリ一定で計算する。",
+      "image": "docs/images/spectrogram_detail.png"
+    }
+  ],
   "categories": {
     "video": "🎬 Video & Audio",
     "docs": "📄 Documents & PDF",
