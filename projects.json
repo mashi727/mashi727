@@ -19,8 +19,7 @@
     "chaptr": {
       "cat": "video",
       "desc": "波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）",
-      "tagline": "波形を見ながら、動画にチャプターを。",
-      "image": false
+      "tagline": "波形を見ながら、動画にチャプターを。"
     },
     "media-scribe-workflow": {
       "cat": "video",

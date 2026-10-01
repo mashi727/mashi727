@@ -31,11 +31,12 @@
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 16 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 17 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
 <p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
+<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
 
 </details>
 <details>
@@ -53,6 +54,15 @@
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🎬 Video & Audio
+
+| Project | | Updated |
+| --- | --- | --- |
+| [**chaptr**](https://github.com/mashi727/chaptr) | 波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows） | 2026‑10 |
+| [**fb‑video‑downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 | 2026‑09 |
+| [**media‑scribe‑workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） | 2026‑09 |
+| [**youtube‑cover‑cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し | 2025‑12 |
+
 #### 📈 Measurement & Science
 
 | Project | | Updated |
@@ -74,15 +84,6 @@
 | [**macos‑vision‑ocr**](https://github.com/mashi727/macos-vision-ocr) | Apple Vision による PDF OCR の CLI（オフライン・多言語） | 2026‑05 |
 | [**luatex‑docker‑remote**](https://github.com/mashi727/luatex-docker-remote) | リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 | 2025‑11 |
 | [**markdown‑uploader**](https://github.com/mashi727/markdown-uploader) | Markdown（数式・画像・コールアウト）を Notion へアップロード | 2025‑08 |
-
-#### 🎬 Video & Audio
-
-| Project | | Updated |
-| --- | --- | --- |
-| [**chaptr**](https://github.com/mashi727/chaptr) | 波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows） | 2026‑09 |
-| [**fb‑video‑downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 | 2026‑09 |
-| [**media‑scribe‑workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） | 2026‑09 |
-| [**youtube‑cover‑cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し | 2025‑12 |
 
 #### 🧰 CLI & Utilities
 
