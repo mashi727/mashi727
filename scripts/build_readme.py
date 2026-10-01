@@ -123,7 +123,8 @@ def wrap(s: str, size: float, width: float, max_lines: int) -> list[str]:
 
 
 def make_card(rank: int, repo: dict, dates: list[datetime]) -> str:
-    W, H = 1280, 340
+    """横一列の活動カード。左: 名前・タグライン・説明 2 行 / 中: 日別コミット / 右: 件数・言語。"""
+    W, H = 1280, 116
     days = CONFIG["window_days"]
     today = datetime.now(JST).date()
     bins = [0] * days
@@ -132,50 +133,53 @@ def make_card(rank: int, repo: dict, dates: list[datetime]) -> str:
         if 0 <= k < days:
             bins[days - 1 - k] += 1
     peak = max(bins) or 1
-    x0, x1, base, hmax = 64, W - 64, 300, 64
+    x0, x1, base, hmax = 660, 1060, 88, 60
     slot = (x1 - x0) / days
     bars = []
     for i, n in enumerate(bins):
-        x = x0 + i * slot + 3
+        x = x0 + i * slot + 1.5
         if n:
-            h = max(6, hmax * n / peak)
-            bars.append(f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{slot - 6:.1f}" height="{h:.1f}" rx="3" fill="url(#bar)"/>')
+            h = max(4, hmax * n / peak)
+            bars.append(f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{slot - 3:.1f}" height="{h:.1f}" rx="2" fill="url(#bar)"/>')
         else:
-            bars.append(f'<rect x="{x:.1f}" y="{base - 3}" width="{slot - 6:.1f}" height="3" rx="1.5" fill="#3a4170"/>')
+            bars.append(f'<rect x="{x:.1f}" y="{base - 2}" width="{slot - 3:.1f}" height="2" rx="1" fill="#3a4170"/>')
     meta = CONFIG["projects"].get(repo["name"], {})
-    headline = meta.get("tagline") or ""
-    desc = re.sub(r"`([^`]+)`", r"\1", meta.get("desc") or repo.get("description") or "")
-    desc_lines = wrap(desc, 19, 720, 2)
     esc = html.escape
-    lang = esc(repo.get("language") or "")
-    start = (today - timedelta(days=days - 1)).strftime("%m/%d")
     jp = "'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif"
     serif = "'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif"
-    y_tag = 146  # タグライン(あれば)。説明文はその下、無ければこの位置から
-    y_desc = y_tag + 36 if headline else y_tag
+    sans = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
+    name = repo["name"]
+    left_w = x0 - 32 - 40  # 左ブロックの幅
+    # タグラインは名前の右に並べる(はみ出す分は省略)
+    tag_x = 32 + text_width(name, 30) * 0.8 + 16
+    tagline = meta.get("tagline") or ""
+    if tagline:
+        tagline = (wrap(tagline, 15, 32 + left_w - tag_x, 1) or [""])[0]
+    desc = re.sub(r"`([^`]+)`", r"\1", meta.get("desc") or repo.get("description") or "")
+    desc_lines = wrap(desc, 14, left_w, 2)
+    start = (today - timedelta(days=days - 1)).strftime("%m/%d")
+    lang = esc((repo.get("language") or "").upper())
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-        f'aria-label="{esc(repo["name"])}: {len(dates)} commits in the last {days} days">',
-        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f22"/>'
+        f'aria-label="{esc(name)}: {len(dates)} commits in the last {days} days">',
+        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a0f22"/>'
         '<stop offset="1" stop-color="#1b1640"/></linearGradient>'
         '<linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38d6ff"/>'
         '<stop offset="1" stop-color="#ff7ad9"/></linearGradient></defs>',
-        f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg)"/>',
-        f'<text x="64" y="52" font-family="-apple-system,\'Segoe UI\',Helvetica,Arial,sans-serif" font-size="14" '
-        f'letter-spacing="3" fill="#7f88b8">#{rank} · LAST {days} DAYS</text>',
-        f'<text x="64" y="104" font-family="{serif}" font-size="50" fill="#f4f1ff">{esc(repo["name"])}</text>',
+        f'<rect width="{W}" height="{H}" rx="12" fill="url(#bg)"/>',
+        f'<text x="32" y="24" font-family="{sans}" font-size="10" letter-spacing="2.5" fill="#7f88b8">#{rank} · LAST {days} DAYS</text>',
+        f'<text x="32" y="54" font-family="{serif}" font-size="30" fill="#f4f1ff">{esc(name)}</text>',
     ]
-    if headline:
-        parts.append(f'<text x="66" y="{y_tag}" font-family="{jp}" font-size="21" font-weight="600" fill="#e3dcff">{esc(headline)}</text>')
-    for i, line in enumerate(desc_lines):
-        parts.append(f'<text x="66" y="{y_desc + i * 28}" font-family="{jp}" font-size="19" fill="#b9c0e8">{esc(line)}</text>')
+    if tagline:
+        parts.append(f'<text x="{tag_x:.0f}" y="52" font-family="{jp}" font-size="15" font-weight="600" fill="#e3dcff">{esc(tagline)}</text>')
+    for k, line in enumerate(desc_lines):
+        parts.append(f'<text x="33" y="{79 + k * 20}" font-family="{jp}" font-size="14" fill="#b9c0e8">{esc(line)}</text>')
     parts += [
-        f'<text x="{W - 64}" y="112" text-anchor="end" font-family="{serif}" font-size="84" fill="#ffffff">{len(dates)}</text>',
-        f'<text x="{W - 64}" y="142" text-anchor="end" font-family="-apple-system,\'Segoe UI\',Helvetica,Arial,sans-serif" '
-        f'font-size="16" letter-spacing="2" fill="#9aa3d4">COMMITS · {lang.upper()}</text>',
         *bars,
-        f'<text x="{x0}" y="{base + 24}" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" fill="#6c74a6">{start}</text>',
-        f'<text x="{x1}" y="{base + 24}" text-anchor="end" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" fill="#6c74a6">today</text>',
+        f'<text x="{x0}" y="106" font-family="{sans}" font-size="10" fill="#6c74a6">{start}</text>',
+        f'<text x="{x1}" y="106" text-anchor="end" font-family="{sans}" font-size="10" fill="#6c74a6">today</text>',
+        f'<text x="{W - 32}" y="66" text-anchor="end" font-family="{serif}" font-size="48" fill="#ffffff">{len(dates)}</text>',
+        f'<text x="{W - 32}" y="90" text-anchor="end" font-family="{sans}" font-size="11" letter-spacing="2" fill="#9aa3d4">COMMITS · {lang}</text>',
         "</svg>",
     ]
     return "\n".join(parts) + "\n"
