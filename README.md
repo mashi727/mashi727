@@ -18,43 +18,32 @@
 
 ## ⚡ Now — この1か月、いちばん手を動かしているもの
 
+<sub>直近 30 日のコミット数順。見出しをクリックすると開閉します。</sub>
+
 <!-- NOW:START -->
-<table>
-<tr>
-<td valign="top" width="33%">
-<a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a><br>
-<sub>自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持</sub><br><br>
-<sub>🔥 <code>▰▰▰▰▰▰▰▰▰▰</code> <b>19</b> commits / 30日</sub><br>
-<sub><code>Python</code> · 🕒 2026-09-28</sub>
-</td>
-<td valign="top" width="33%">
-<a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a><br>
-<sub>波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）</sub><br><br>
-<sub>🔥 <code>▰▰▰▰▰▰▰▰▱▱</code> <b>16</b> commits / 30日</sub><br>
-<sub><code>Python</code> · 🕒 2026-09-30</sub>
-</td>
-<td valign="top" width="33%">
-<a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a><br>
-<sub>動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram）</sub><br><br>
-<sub>🔥 <code>▰▰▰▱▱▱▱▱▱▱</code> <b>6</b> commits / 30日</sub><br>
-<sub><code>Python</code> · 🕒 2026-09-07</sub>
-</td>
-</tr>
-</table>
+<details open>
+<summary><b>🥇 book-viewer</b> — 🔥 19 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
+<a href="https://github.com/mashi727/book-viewer"><img src="https://raw.githubusercontent.com/mashi727/book-viewer/main/docs/images/main.png" alt="book-viewer の画面" width="100%"></a>
+
+</details>
+<details>
+<summary><b>🥈 chaptr</b> — 🔥 16 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
+
+</details>
+<details>
+<summary><b>🥉 media-scribe-workflow</b> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
+
+</details>
 <!-- NOW:END -->
-
-## ✦ Showcase
-
-<!-- SHOWCASE:START -->
-<table>
-<tr>
-<td valign="top" width="100%">
-<a href="https://github.com/mashi727/enquete"><img src="https://raw.githubusercontent.com/mashi727/enquete/main/docs/images/digitize.jpg" alt="enquete" width="100%"></a><br>
-<a href="https://github.com/mashi727/enquete"><b>enquete</b></a> — 紙のアンケートを、PDF 1 枚で電子化まで。
-</td>
-</tr>
-</table>
-<!-- SHOWCASE:END -->
 
 ## 🗂 All projects
 

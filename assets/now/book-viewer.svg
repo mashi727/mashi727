@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="book-viewer: 19 commits in the last 30 days">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f22"/><stop offset="1" stop-color="#1b1640"/></linearGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38d6ff"/><stop offset="1" stop-color="#ff7ad9"/></linearGradient></defs>
+<rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+<text x="64" y="52" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" letter-spacing="3" fill="#7f88b8">#1 · LAST 30 DAYS</text>
+<text x="64" y="104" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="50" fill="#f4f1ff">book-viewer</text>
+<text x="66" y="146" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" fill="#b9c0e8">自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持</text>
+<text x="1216" y="112" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="84" fill="#ffffff">19</text>
+<text x="1216" y="142" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" letter-spacing="2" fill="#9aa3d4">COMMITS · PYTHON</text>
+<rect x="67.0" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="105.4" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="143.8" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="182.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="220.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="259.0" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="297.4" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="335.8" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="374.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="412.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="451.0" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="489.4" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="527.8" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="566.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="604.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="643.0" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="681.4" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="719.8" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="758.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="796.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="835.0" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="873.4" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="911.8" y="292.9" width="32.4" height="7.1" rx="3" fill="url(#bar)"/>
+<rect x="950.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="988.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="1027.0" y="236.0" width="32.4" height="64.0" rx="3" fill="url(#bar)"/>
+<rect x="1065.4" y="236.0" width="32.4" height="64.0" rx="3" fill="url(#bar)"/>
+<rect x="1103.8" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="1142.2" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="1180.6" y="297" width="32.4" height="3" rx="1.5" fill="#3a4170"/>
+<text x="64" y="324" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" fill="#6c74a6">09/02</text>
+<text x="1216" y="324" text-anchor="end" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" fill="#6c74a6">today</text>
+</svg>

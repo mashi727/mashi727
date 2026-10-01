@@ -15,17 +15,12 @@
     "cli": "🧰 CLI & Utilities",
     "other": "🧪 Others"
   },
-  "showcase": [
-    {
-      "repo": "enquete",
-      "image": "https://raw.githubusercontent.com/mashi727/enquete/main/docs/images/digitize.jpg",
-      "tagline": "紙のアンケートを、PDF 1 枚で電子化まで。"
-    }
-  ],
   "projects": {
     "chaptr": {
       "cat": "video",
-      "desc": "波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）"
+      "desc": "波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）",
+      "tagline": "波形を見ながら、動画にチャプターを。",
+      "image": false
     },
     "media-scribe-workflow": {
       "cat": "video",
@@ -41,7 +36,8 @@
     },
     "enquete": {
       "cat": "docs",
-      "desc": "紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で"
+      "desc": "紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で",
+      "tagline": "紙のアンケートを、PDF 1 枚で電子化まで。"
     },
     "vision-book-digitizer": {
       "cat": "docs",
