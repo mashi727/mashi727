@@ -1,0 +1,98 @@
+{
+  "user": "mashi727",
+  "now_count": 3,
+  "exclude": [
+    "mashi727",
+    "zenn-contents",
+    "finance_viz",
+    "get_blood_data"
+  ],
+  "categories": {
+    "video": "🎬 Video & Audio",
+    "docs": "📄 Documents & PDF",
+    "science": "📈 Measurement & Science",
+    "cli": "🧰 CLI & Utilities",
+    "other": "🧪 Others"
+  },
+  "showcase": [
+    {
+      "repo": "enquete",
+      "image": "https://raw.githubusercontent.com/mashi727/enquete/main/docs/images/digitize.jpg",
+      "tagline": "紙のアンケートを、PDF 1 枚で電子化まで。"
+    }
+  ],
+  "projects": {
+    "chaptr": {
+      "cat": "video",
+      "desc": "波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows）"
+    },
+    "media-scribe-workflow": {
+      "cat": "video",
+      "desc": "動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram）"
+    },
+    "youtube-cover-cropper": {
+      "cat": "video",
+      "desc": "YouTube サムネイル用に 16:9・1280×720 で切り出し"
+    },
+    "fb-video-downloader": {
+      "cat": "video",
+      "desc": "Facebook 動画の取得と、内容に即したファイル名の自動付与"
+    },
+    "enquete": {
+      "cat": "docs",
+      "desc": "紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で"
+    },
+    "vision-book-digitizer": {
+      "cat": "docs",
+      "desc": "スキャン書籍 PDF → Markdown + 図版。縦書き対応、Apple Vision でオフライン処理"
+    },
+    "macos-vision-ocr": {
+      "cat": "docs",
+      "desc": "Apple Vision による PDF OCR の CLI（オフライン・多言語）"
+    },
+    "book-viewer": {
+      "cat": "docs",
+      "desc": "自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持"
+    },
+    "score-viewer": {
+      "cat": "docs",
+      "desc": "楽譜 PDF ビューア。ファイル名から曲名を抽出してコピー"
+    },
+    "perspective-corrector": {
+      "cat": "docs",
+      "desc": "スライドを撮影した写真の台形歪みを補正"
+    },
+    "luatex-docker-remote": {
+      "cat": "docs",
+      "desc": "リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応"
+    },
+    "markdown-uploader": {
+      "cat": "docs",
+      "desc": "Markdown（数式・画像・コールアウト）を Notion へアップロード"
+    },
+    "iq-analyzer": {
+      "cat": "science",
+      "desc": "Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア"
+    },
+    "iPhone-G-Sensor": {
+      "cat": "science",
+      "desc": "iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化"
+    },
+    "route-planner": {
+      "cat": "science",
+      "desc": "標高プロファイルを解析するサイクリング用ルートプランナー"
+    },
+    "mandelbrot-viewer": {
+      "cat": "science",
+      "desc": "3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba）"
+    },
+    "deepl-cli": {
+      "cat": "cli",
+      "desc": "DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応"
+    },
+    "qrgene": {
+      "cat": "cli",
+      "desc": "Excel の一覧から QR コードを生成し PDF に割り付け（Go）"
+    }
+  }
+}

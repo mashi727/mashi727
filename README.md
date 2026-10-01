@@ -1,89 +1,101 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Massy — Tools that finish the work where it starts." width="100%">
+</p>
 
-# Massy
+<p align="center">
+  <b>手元の作業を、手元で完結させる道具をつくっています。</b><br>
+  <sub>演奏会の録画、紙のアンケート、スキャンした本、計測データ — 目の前の素材を、そのまま使える形へ。</sub>
+</p>
 
-**手元の作業を、手元で完結させる道具をつくっています。**<br>
-<sub>Desktop tools for media, documents, and measurement data — mostly Python / PySide6 on macOS.</sub>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6">
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg">
+  <img src="https://img.shields.io/badge/LuaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LuaTeX">
+</p>
 
-<br>
+## ⚡ Now — いま手を動かしているもの
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Qt](https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LuaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</div>
-
----
-
-## ✦ Highlight
-
+<!-- NOW:START -->
 <table>
 <tr>
-<td width="55%" valign="top">
-
-### [Chaptr](https://github.com/mashi727/chaptr)
-
-**波形を見ながら、動画にチャプターを。**
-
-演奏会・レッスン・講義などの長尺メディアを、2 段の波形とメルスペクトログラムを頼りに区切り、チャプター付き動画として書き出すデスクトップアプリ。
-
-- VideoToolbox / NVENC / QSV / AMF によるハードウェアエンコード
-- macOS / Windows のバイナリを配布
-- movie-viewer / video-chapter-splitter / video-chapter-trimmer の後継（旧リポジトリはアーカイブ済み）
-
-[![Release](https://img.shields.io/github/v/release/mashi727/chaptr?include_prereleases&style=flat-square)](https://github.com/mashi727/chaptr/releases)
-
+<td valign="top" width="33%">
+<a href="https://github.com/mashi727/iPhone-G-Sensor"><b>iPhone-G-Sensor</b></a><br>
+<sub>iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化</sub><br><br>
+<sub><code>Python</code> · 🕒 2026-10-01</sub>
 </td>
-<td width="45%" valign="middle">
-
-<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/startup.png" alt="Chaptr" width="100%"></a>
-
+<td valign="top" width="33%">
+<a href="https://github.com/mashi727/enquete"><b>enquete</b></a><br>
+<sub>紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で</sub><br><br>
+<sub><code>Python</code> · 🕒 2026-09-30</sub>
+</td>
+<td valign="top" width="33%">
+<a href="https://github.com/mashi727/iq-analyzer"><b>iq-analyzer</b></a><br>
+<sub>Rohde &amp; Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア</sub><br><br>
+<sub><code>Python</code> · 🕒 2026-09-30</sub>
 </td>
 </tr>
 </table>
+<!-- NOW:END -->
 
----
+## ✦ Showcase
 
-## 🎬 Video & Audio
+<!-- SHOWCASE:START -->
+<table>
+<tr>
+<td valign="top" width="100%">
+<a href="https://github.com/mashi727/enquete"><img src="https://raw.githubusercontent.com/mashi727/enquete/main/docs/images/digitize.jpg" alt="enquete" width="100%"></a><br>
+<a href="https://github.com/mashi727/enquete"><b>enquete</b></a> — 紙のアンケートを、PDF 1 枚で電子化まで。
+</td>
+</tr>
+</table>
+<!-- SHOWCASE:END -->
 
-| Project | |
-| --- | --- |
-| [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） |
-| [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し |
-| [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 |
+## 🗂 All projects
 
-## 📄 Documents & PDF
+<sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
-| Project | |
-| --- | --- |
-| [**vision-book-digitizer**](https://github.com/mashi727/vision-book-digitizer) | スキャン書籍 PDF → Markdown + 図版。縦書き対応、Apple Vision でオフライン処理 |
-| [**macos-vision-ocr**](https://github.com/mashi727/macos-vision-ocr) | Apple Vision による PDF OCR の CLI（オフライン・多言語） |
-| [**book-viewer**](https://github.com/mashi727/book-viewer) | 自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持 |
-| [**score-viewer**](https://github.com/mashi727/score-viewer) | 楽譜 PDF ビューア。ファイル名から曲名を抽出してコピー |
-| [**enquete**](https://github.com/mashi727/enquete) | 紙のアンケート（スキャン PDF）の集計・電子化を支援 |
-| [**perspective-corrector**](https://github.com/mashi727/perspective-corrector) | スライドを撮影した写真の台形歪みを補正 |
-| [**luatex-docker-remote**](https://github.com/mashi727/luatex-docker-remote) | リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 |
-| [**markdown-uploader**](https://github.com/mashi727/markdown-uploader) | Markdown（数式・画像・コールアウト）を Notion へアップロード |
+<!-- INDEX:START -->
+#### 📈 Measurement & Science
 
-## 📈 Measurement & Science
+| Project | | Updated |
+| --- | --- | --- |
+| [**iPhone‑G‑Sensor**](https://github.com/mashi727/iPhone-G-Sensor) | iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 | 2026‑10 |
+| [**iq‑analyzer**](https://github.com/mashi727/iq-analyzer) | Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア | 2026‑09 |
+| [**route‑planner**](https://github.com/mashi727/route-planner) | 標高プロファイルを解析するサイクリング用ルートプランナー | 2026‑07 |
+| [**mandelbrot‑viewer**](https://github.com/mashi727/mandelbrot-viewer) | 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） | 2026‑05 |
 
-| Project | |
-| --- | --- |
-| [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) | Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア |
-| [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) | iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 |
-| [**route-planner**](https://github.com/mashi727/route-planner) | 標高プロファイルを解析するサイクリング用ルートプランナー |
-| [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) | 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） |
+#### 📄 Documents & PDF
 
-## 🧰 CLI & Utilities
+| Project | | Updated |
+| --- | --- | --- |
+| [**enquete**](https://github.com/mashi727/enquete) | 紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で | 2026‑09 |
+| [**book‑viewer**](https://github.com/mashi727/book-viewer) | 自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持 | 2026‑09 |
+| [**score‑viewer**](https://github.com/mashi727/score-viewer) | 楽譜 PDF ビューア。ファイル名から曲名を抽出してコピー | 2026‑09 |
+| [**perspective‑corrector**](https://github.com/mashi727/perspective-corrector) | スライドを撮影した写真の台形歪みを補正 | 2026‑07 |
+| [**vision‑book‑digitizer**](https://github.com/mashi727/vision-book-digitizer) | スキャン書籍 PDF → Markdown + 図版。縦書き対応、Apple Vision でオフライン処理 | 2026‑07 |
+| [**macos‑vision‑ocr**](https://github.com/mashi727/macos-vision-ocr) | Apple Vision による PDF OCR の CLI（オフライン・多言語） | 2026‑05 |
+| [**luatex‑docker‑remote**](https://github.com/mashi727/luatex-docker-remote) | リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 | 2025‑11 |
+| [**markdown‑uploader**](https://github.com/mashi727/markdown-uploader) | Markdown（数式・画像・コールアウト）を Notion へアップロード | 2025‑08 |
 
-| Project | |
-| --- | --- |
-| [**deepl-cli**](https://github.com/mashi727/deepl-cli) | DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 |
-| [**qrgene**](https://github.com/mashi727/qrgene) | Excel の一覧から QR コードを生成し PDF に割り付け（Go） |
+#### 🎬 Video & Audio
+
+| Project | | Updated |
+| --- | --- | --- |
+| [**chaptr**](https://github.com/mashi727/chaptr) | 波形とメルスペクトログラムを見ながら長尺動画を区切り、チャプター付きで書き出すデスクトップアプリ（GPU エンコード、macOS / Windows） | 2026‑09 |
+| [**fb‑video‑downloader**](https://github.com/mashi727/fb-video-downloader) | Facebook 動画の取得と、内容に即したファイル名の自動付与 | 2026‑09 |
+| [**media‑scribe‑workflow**](https://github.com/mashi727/media-scribe-workflow) | 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） | 2026‑09 |
+| [**youtube‑cover‑cropper**](https://github.com/mashi727/youtube-cover-cropper) | YouTube サムネイル用に 16:9・1280×720 で切り出し | 2025‑12 |
+
+#### 🧰 CLI & Utilities
+
+| Project | | Updated |
+| --- | --- | --- |
+| [**deepl‑cli**](https://github.com/mashi727/deepl-cli) | DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 | 2025‑10 |
+| [**qrgene**](https://github.com/mashi727/qrgene) | Excel の一覧から QR コードを生成し PDF に割り付け（Go） | 2022‑09 |
+<!-- INDEX:END -->
 
 ---
 
