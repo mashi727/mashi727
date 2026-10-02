@@ -52,7 +52,7 @@ LLM が書いた手順や計画を PAD（問題分析図）に描くツールチ
 
 **録画を、引き直せる知識に。**
 
-<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/pad/concept.png" alt="media-scribe-workflow の画面" width="100%"></a>
 
 動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。
 
@@ -93,7 +93,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 19 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 21 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
@@ -103,7 +103,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 17 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 20 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
@@ -113,12 +113,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 12 commits / 30日 · <sub>Shell</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
 <p>道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録</p>
 <p align="right"><a href="https://github.com/mashi727/tool-philosophy"><b>→ mashi727/tool-philosophy を開く</b></a></p>
+<a href="https://github.com/mashi727/tool-philosophy"><img src="https://raw.githubusercontent.com/mashi727/tool-philosophy/main/docs/pad/concept.png" alt="tool-philosophy の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
@@ -128,41 +129,41 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
-#### 🧭 Ideas & Workflow
-
-- [**padkit**](https://github.com/mashi727/padkit) — SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill <sub>2026‑10</sub>
-- [**tool-philosophy**](https://github.com/mashi727/tool-philosophy) — 道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録 <sub>2026‑10</sub>
-
-#### 📈 Measurement & Science
-
-- [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑10</sub>
-- [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
-- [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑07</sub>
-- [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑05</sub>
-
-#### 🧰 CLI & Utilities
-
-- [**claude-imedict**](https://github.com/mashi727/claude-imedict) — Claude Code の対話履歴から自分の語彙を抽出し、macOS 標準と azooKey のユーザー辞書を生成する（読みは macOS 内蔵のトークナイザで推定） <sub>2026‑10</sub>
-- [**deepl-cli**](https://github.com/mashi727/deepl-cli) — DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 <sub>2025‑10</sub>
-- [**qrgene**](https://github.com/mashi727/qrgene) — Excel の一覧から QR コードを生成し PDF に割り付け（Go） <sub>2022‑09</sub>
-
 #### 🎬 Video & Audio
 
-- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
 - [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
-- [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑09</sub>
-- [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2025‑12</sub>
+- [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
+- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
+- [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
 
 #### 📄 Documents & PDF
 
-- [**enquete**](https://github.com/mashi727/enquete) — 紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で <sub>2026‑09</sub>
-- [**book-viewer**](https://github.com/mashi727/book-viewer) — 自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持 <sub>2026‑09</sub>
-- [**score-viewer**](https://github.com/mashi727/score-viewer) — 楽譜 PDF ビューア。ファイル名から曲名を抽出してコピー <sub>2026‑09</sub>
-- [**perspective-corrector**](https://github.com/mashi727/perspective-corrector) — スライドを撮影した写真の台形歪みを補正 <sub>2026‑07</sub>
-- [**vision-book-digitizer**](https://github.com/mashi727/vision-book-digitizer) — スキャン書籍 PDF → Markdown + 図版。縦書き対応、Apple Vision でオフライン処理 <sub>2026‑07</sub>
-- [**macos-vision-ocr**](https://github.com/mashi727/macos-vision-ocr) — Apple Vision による PDF OCR の CLI（オフライン・多言語） <sub>2026‑05</sub>
-- [**luatex-docker-remote**](https://github.com/mashi727/luatex-docker-remote) — リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 <sub>2025‑11</sub>
-- [**markdown-uploader**](https://github.com/mashi727/markdown-uploader) — Markdown（数式・画像・コールアウト）を Notion へアップロード <sub>2025‑08</sub>
+- [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
+- [**macos-vision-ocr**](https://github.com/mashi727/macos-vision-ocr) — Apple Vision による PDF OCR の CLI（オフライン・多言語） <sub>2026‑10</sub>
+- [**vision-book-digitizer**](https://github.com/mashi727/vision-book-digitizer) — スキャン書籍 PDF → Markdown + 図版。縦書き対応、Apple Vision でオフライン処理 <sub>2026‑10</sub>
+- [**perspective-corrector**](https://github.com/mashi727/perspective-corrector) — スライドを撮影した写真の台形歪みを補正 <sub>2026‑10</sub>
+- [**markdown-uploader**](https://github.com/mashi727/markdown-uploader) — Markdown（数式・画像・コールアウト）を Notion へアップロード <sub>2026‑10</sub>
+- [**luatex-docker-remote**](https://github.com/mashi727/luatex-docker-remote) — リモートの Docker で LuaTeX をコンパイル。`.sty` の自動同期と日本語組版に対応 <sub>2026‑10</sub>
+- [**enquete**](https://github.com/mashi727/enquete) — 紙のアンケート（スキャン PDF）のチェック判定・自由記述 OCR・校正を、結果を PDF 自体に埋め込んで一気通貫で <sub>2026‑10</sub>
+- [**book-viewer**](https://github.com/mashi727/book-viewer) — 自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持 <sub>2026‑10</sub>
+
+#### 🧭 Ideas & Workflow
+
+- [**tool-philosophy**](https://github.com/mashi727/tool-philosophy) — 道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録 <sub>2026‑10</sub>
+- [**padkit**](https://github.com/mashi727/padkit) — SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill <sub>2026‑10</sub>
+
+#### 📈 Measurement & Science
+
+- [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑10</sub>
+- [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑10</sub>
+- [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑10</sub>
+- [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
+
+#### 🧰 CLI & Utilities
+
+- [**deepl-cli**](https://github.com/mashi727/deepl-cli) — DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 <sub>2026‑10</sub>
+- [**claude-imedict**](https://github.com/mashi727/claude-imedict) — Claude Code の対話履歴から自分の語彙を抽出し、macOS 標準と azooKey のユーザー辞書を生成する（読みは macOS 内蔵のトークナイザで推定） <sub>2026‑10</sub>
+- [**qrgene**](https://github.com/mashi727/qrgene) — Excel の一覧から QR コードを生成し PDF に割り付け（Go） <sub>2022‑09</sub>
 <!-- INDEX:END -->
 
 ---

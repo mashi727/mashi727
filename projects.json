@@ -77,7 +77,7 @@
     },
     "score-viewer": {
       "cat": "docs",
-      "desc": "楽譜 PDF ビューア。ファイル名から曲名を抽出してコピー"
+      "desc": "Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア"
     },
     "perspective-corrector": {
       "cat": "docs",
