@@ -36,11 +36,11 @@
 
 ### [padkit](https://github.com/mashi727/padkit)
 
-**手順を図にすると、欠陥が形で見える。**
+**手順を図にすると、構造が見える。**
 
 <a href="https://github.com/mashi727/padkit"><img src="https://raw.githubusercontent.com/mashi727/padkit/main/docs/images/release-process.align-depth.png" alt="padkit の画面" width="100%"></a>
 
-LLM が書いた手順や計画を PAD（問題分析図）に描くツールチェーン。散文では見えない構造の欠陥（本流の途中の終端、反復の欠如、片道の分岐）が、図のずれとして現れる。描画エンジンが終了コード 0 のまま図を崩す入力は、独自パーサとの AST 突き合わせで止める。Claude Skill も同梱。
+LLM が書いた手順や計画を PAD（問題分析図）に描くツールチェーン。散文では頭の中で組み立て直すしかない入れ子・反復・分岐の構造が、そのまま2次元の図として見える。描画エンジンが終了コード 0 のまま図を崩す入力は、独自パーサとの AST 突き合わせで止める。Claude Skill も同梱。
 
 <sub><a href="https://github.com/mashi727/padkit">→ mashi727/padkit を開く</a></sub>
 
