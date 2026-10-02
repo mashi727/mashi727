@@ -76,7 +76,7 @@
       "desc": "自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持"
     },
     "score-viewer": {
-      "cat": "docs",
+      "cat": "video",
       "desc": "Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア"
     },
     "perspective-corrector": {
