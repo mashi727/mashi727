@@ -99,7 +99,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 11 commits / 30日 · <sub>Shell</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 12 commits / 30日 · <sub>Shell</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
@@ -114,6 +114,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 📈 Measurement & Science
+
+- [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑10</sub>
+- [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
+- [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑07</sub>
+- [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑05</sub>
+
 #### 🧭 Ideas & Workflow
 
 - [**tool-philosophy**](https://github.com/mashi727/tool-philosophy) — 道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録 <sub>2026‑10</sub>
@@ -130,13 +137,6 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 - [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
 - [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑09</sub>
 - [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2025‑12</sub>
-
-#### 📈 Measurement & Science
-
-- [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
-- [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑09</sub>
-- [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑07</sub>
-- [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑05</sub>
 
 #### 📄 Documents & PDF
 
