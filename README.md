@@ -52,7 +52,7 @@ LLM が書いた手順や計画を PAD（問題分析図）に描くツールチ
 
 **録画を、引き直せる知識に。**
 
-<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/pad/concept.png" alt="media-scribe-workflow の画面" width="100%"></a>
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
 
 動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。
 
