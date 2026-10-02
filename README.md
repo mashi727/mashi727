@@ -32,7 +32,21 @@
 ## ✦ Featured — 代表作
 
 <!-- FEATURED:START -->
-<sub>01 · 🎬 Video &amp; Audio</sub>
+<sub>01 · 🧭 Ideas &amp; Workflow</sub>
+
+### [padkit](https://github.com/mashi727/padkit)
+
+**手順を図にすると、欠陥が形で見える。**
+
+<a href="https://github.com/mashi727/padkit"><img src="https://raw.githubusercontent.com/mashi727/padkit/main/docs/images/release-process.align-depth.png" alt="padkit の画面" width="100%"></a>
+
+LLM が書いた手順や計画を PAD（問題分析図）に描くツールチェーン。散文では見えない構造の欠陥（本流の途中の終端、反復の欠如、片道の分岐）が、図のずれとして現れる。描画エンジンが終了コード 0 のまま図を崩す入力は、独自パーサとの AST 突き合わせで止める。Claude Skill も同梱。
+
+<sub><a href="https://github.com/mashi727/padkit">→ mashi727/padkit を開く</a></sub>
+
+<br>
+
+<sub>02 · 🎬 Video &amp; Audio</sub>
 
 ### [media-scribe-workflow](https://github.com/mashi727/media-scribe-workflow)
 
@@ -46,7 +60,7 @@
 
 <br>
 
-<sub>02 · 🎬 Video &amp; Audio</sub>
+<sub>03 · 🎬 Video &amp; Audio</sub>
 
 ### [chaptr](https://github.com/mashi727/chaptr)
 
@@ -60,7 +74,7 @@
 
 <br>
 
-<sub>03 · 📈 Measurement &amp; Science</sub>
+<sub>04 · 📈 Measurement &amp; Science</sub>
 
 ### [iq-analyzer](https://github.com/mashi727/iq-analyzer)
 
@@ -114,16 +128,17 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🧭 Ideas & Workflow
+
+- [**padkit**](https://github.com/mashi727/padkit) — SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill <sub>2026‑10</sub>
+- [**tool-philosophy**](https://github.com/mashi727/tool-philosophy) — 道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録 <sub>2026‑10</sub>
+
 #### 📈 Measurement & Science
 
 - [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑10</sub>
 - [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
 - [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑07</sub>
 - [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑05</sub>
-
-#### 🧭 Ideas & Workflow
-
-- [**tool-philosophy**](https://github.com/mashi727/tool-philosophy) — 道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録 <sub>2026‑10</sub>
 
 #### 🧰 CLI & Utilities
 

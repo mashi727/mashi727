@@ -30,9 +30,9 @@
 <rect x="922.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="937.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="952.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="967.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="982.0" y="62.3" width="11.0" height="65.7" rx="3" fill="url(#bar)"/>
-<rect x="997.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
+<rect x="967.0" y="62.3" width="11.0" height="65.7" rx="3" fill="url(#bar)"/>
+<rect x="982.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
+<rect x="997.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <text x="1240" y="104" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="76" fill="#ffffff">12</text>
 <text x="1240" y="136" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" letter-spacing="2" fill="#9aa3d4">COMMITS</text>
 </svg>

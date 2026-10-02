@@ -10,6 +10,12 @@
   ],
   "featured": [
     {
+      "repo": "padkit",
+      "catch": "手順を図にすると、欠陥が形で見える。",
+      "lead": "LLM が書いた手順や計画を PAD（問題分析図）に描くツールチェーン。散文では見えない構造の欠陥（本流の途中の終端、反復の欠如、片道の分岐）が、図のずれとして現れる。描画エンジンが終了コード 0 のまま図を崩す入力は、独自パーサとの AST 突き合わせで止める。Claude Skill も同梱。",
+      "image": "docs/images/release-process.align-depth.png"
+    },
+    {
       "repo": "media-scribe-workflow",
       "catch": "録画を、引き直せる知識に。",
       "lead": "動画・音声から字幕・チャプター・記録 PDF を作る CLI 群。できた記録をトピックごとに束ね直すと、動画をまたいだ索引になる（例：レッスン動画 31 本 → 奏法の課題 84 件）。"
@@ -116,6 +122,10 @@
     "tool-philosophy": {
       "cat": "ideas",
       "desc": "道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録"
+    },
+    "padkit": {
+      "cat": "ideas",
+      "desc": "SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill"
     }
   }
 }
