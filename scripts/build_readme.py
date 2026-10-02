@@ -30,6 +30,7 @@ JST = timezone(timedelta(hours=9))
 RANK = ["🥇", "🥈", "🥉", "4.", "5.", "6."]
 # README の画像のうち、画面写真ではないもの(バッジ類)
 BADGE = re.compile(r"shields\.io|badge|/actions/|codecov|badgen|fury\.io|\.svg(\?|$)", re.I)
+PAD = re.compile(r"(^|/)pad/concept\.png$")
 
 
 # --- GitHub API ------------------------------------------------------------
@@ -91,11 +92,12 @@ def screenshot_of(repo: dict) -> str | None:
         return None
     assert isinstance(data, dict)
     text = base64.b64decode(data["content"]).decode("utf-8", "replace")
-    srcs = re.findall(r'!\[[^\]]*\]\(\s*([^)\s]+)|<img\s[^>]*?src="([^"]+)"', text)
-    for md, tag in srcs:
-        src = md or tag
-        if BADGE.search(src):
-            continue
+    srcs = [md or tag for md, tag in
+            re.findall(r'!\[[^\]]*\]\(\s*([^)\s]+)|<img\s[^>]*?src="([^"]+)"', text)]
+    srcs = [s for s in srcs if not BADGE.search(s)]
+    # 考え方の PAD（*/pad/concept.png）は、画面の画像が無いときだけ使う
+    srcs.sort(key=lambda s: bool(PAD.search(s)))
+    for src in srcs:
         if src.startswith(("http://", "https://")):
             return src
         base = posixpath.dirname(data["path"])
