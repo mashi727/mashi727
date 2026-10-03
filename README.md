@@ -16,6 +16,27 @@
   <img src="https://img.shields.io/badge/LuaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LuaTeX">
 </p>
 
+## 👤 About
+
+計測・信号処理とメディア処理のパイプラインを、自分で使う道具として作っています。実験物理の出身です。
+
+**進め方** — システムズエンジニアリングの枠組みで、上流を自分で担い、実装を AI に委任しています。
+
+- **要求定義**：ドメインの知識から、創出すべき価値と課題を定める
+- **機能割付**：人が判断すべきこと（UI）と、機械に任せることを分ける
+- **V&V**：Verification（仕様どおりに作られているか：lint・テスト・件数の突き合わせ）と、Validation（実物で目的を果たすか：実際の録画・計測データでの確認）で受け入れる
+
+各リポジトリの「考え方」の PAD（問題分析図）が、その要求と機能割付です。
+
+**得意なこと**
+
+- 大容量の計測データを普通の PC で扱う — [iq-analyzer](https://github.com/mashi727/iq-analyzer)（100 GB 級の IQ データをメモリに載せずに閲覧）
+- 録音・録画の処理パイプライン — [media-scribe-workflow](https://github.com/mashi727/media-scribe-workflow)（複数 ASR の突き合わせ、TC・相互相関による音声同期）
+- 人が判断する所だけを GUI に残すデスクトップアプリ — [Chaptr](https://github.com/mashi727/chaptr) / [enquete](https://github.com/mashi727/enquete) / [book-viewer](https://github.com/mashi727/book-viewer)
+- 手順や計画の構造を検査できる形にする道具 — [padkit](https://github.com/mashi727/padkit)
+
+<sub>技術：Python（PySide6・NumPy・ffmpeg）· Swift（Vision）· Go · PHP / MySQL · LuaLaTeX · GitHub Actions（CI・リリースビルド）</sub>
+
 ## 🧭 Philosophy — [道具は How である](https://github.com/mashi727/tool-philosophy)
 
 道具の中身は問いません。どういう仕組みで動いているのか、誰が作ったのかは、あまり問題にしません。その代わり、四つのことだけは厳しく問います。
@@ -25,7 +46,7 @@
 3. ほかの道具とうまくつながるか（相互運用性と再利用性）
 4. 何をしたかの跡が残り、失敗したときに正直に言うか（来歴と、失敗の仕方）
 
-あとの三つは機械に調べさせることができます。最初の一つだけは、そうはいきません。目的は道具の中にはないからです。
+あとの三つは機械に調べさせることができます（Verification）。最初の一つだけは、そうはいきません（Validation）。目的は道具の中にはないからです。
 
 <sub><a href="https://github.com/mashi727/tool-philosophy">→ 実際にやってきたことの記録を読む</a></sub>
 
@@ -163,7 +184,6 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 - [**deepl-cli**](https://github.com/mashi727/deepl-cli) — DeepL API のコマンドラインクライアント。標準入出力・クリップボードに対応 <sub>2026‑10</sub>
 - [**claude-imedict**](https://github.com/mashi727/claude-imedict) — Claude Code の対話履歴から自分の語彙を抽出し、macOS 標準と azooKey のユーザー辞書を生成する（読みは macOS 内蔵のトークナイザで推定） <sub>2026‑10</sub>
-- [**qrgene**](https://github.com/mashi727/qrgene) — Excel の一覧から QR コードを生成し PDF に割り付け（Go） <sub>2022‑09</sub>
 <!-- INDEX:END -->
 
 ---
