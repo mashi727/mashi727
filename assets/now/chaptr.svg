@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 160" width="1280" height="160" role="img" aria-label="chaptr: 20 commits in the last 30 days">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 160" width="1280" height="160" role="img" aria-label="chaptr: 19 commits in the last 30 days">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a0f22"/><stop offset="1" stop-color="#1b1640"/></linearGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38d6ff"/><stop offset="1" stop-color="#ff7ad9"/></linearGradient></defs>
 <rect width="1280" height="160" rx="14" fill="url(#bg)"/>
 <text x="40" y="52" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" letter-spacing="3" fill="#8f97c4">#2 · 30 DAYS</text>
@@ -33,6 +33,6 @@
 <rect x="967.0" y="114.9" width="11.0" height="13.1" rx="3" fill="url(#bar)"/>
 <rect x="982.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="997.0" y="88.6" width="11.0" height="39.4" rx="3" fill="url(#bar)"/>
-<text x="1240" y="104" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="76" fill="#ffffff">20</text>
+<text x="1240" y="104" text-anchor="end" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="76" fill="#ffffff">19</text>
 <text x="1240" y="136" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" letter-spacing="2" fill="#9aa3d4">COMMITS</text>
 </svg>
