@@ -124,23 +124,23 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 17 commits / 30日 · <sub>Python</sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
-<p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う</p>
-<p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
-<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
 <p>道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録</p>
 <p align="right"><a href="https://github.com/mashi727/tool-philosophy"><b>→ mashi727/tool-philosophy を開く</b></a></p>
 <a href="https://github.com/mashi727/tool-philosophy"><img src="https://raw.githubusercontent.com/mashi727/tool-philosophy/main/docs/pad/concept.png" alt="tool-philosophy の画面" width="100%"></a>
+
+</details>
+<details>
+<summary>🥉 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 12 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
+<p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う</p>
+<p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
+<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
