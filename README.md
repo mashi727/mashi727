@@ -134,13 +134,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 10 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/iq-analyzer"><b>iq-analyzer</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
-<a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
-<p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う</p>
-<p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
-<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
+<a href="https://github.com/mashi727/iq-analyzer"><img src="assets/now/iq-analyzer.svg" alt="iq-analyzer の直近の活動" width="100%"></a>
+<p>Rohde &amp; Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア</p>
+<p align="right"><a href="https://github.com/mashi727/iq-analyzer"><b>→ mashi727/iq-analyzer を開く</b></a></p>
+<a href="https://github.com/mashi727/iq-analyzer"><img src="https://raw.githubusercontent.com/mashi727/iq-analyzer/main/docs/images/main_window.png" alt="iq-analyzer の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
