@@ -150,20 +150,20 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🎬 Video & Audio
+
+- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
+- [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
+- [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
+- [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
+- [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
+
 #### 📈 Measurement & Science
 
 - [**iq-analyzer**](https://github.com/mashi727/iq-analyzer) — Rohde & Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア <sub>2026‑10</sub>
 - [**route-planner**](https://github.com/mashi727/route-planner) — 標高プロファイルを解析するサイクリング用ルートプランナー <sub>2026‑10</sub>
 - [**mandelbrot-viewer**](https://github.com/mashi727/mandelbrot-viewer) — 3 枚の連動プロットで段階的に拡大するマンデルブロ集合ビューア（Numba） <sub>2026‑10</sub>
 - [**iPhone-G-Sensor**](https://github.com/mashi727/iPhone-G-Sensor) — iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化 <sub>2026‑10</sub>
-
-#### 🎬 Video & Audio
-
-- [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
-- [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
-- [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
-- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
-- [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
 
 #### 📄 Documents & PDF
 
