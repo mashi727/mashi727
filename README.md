@@ -150,6 +150,10 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🧪 Others
+
+- [**mh-curve**](https://github.com/mashi727/mh-curve) — 修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力） <sub>2026‑10</sub>
+
 #### 🎬 Video & Audio
 
 - [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
