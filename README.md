@@ -114,7 +114,17 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 21 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 29 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
+<p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う</p>
+<p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
+<a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
+
+</details>
+<details>
+<summary>🥈 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 21 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
@@ -124,23 +134,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
 <p>道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録</p>
 <p align="right"><a href="https://github.com/mashi727/tool-philosophy"><b>→ mashi727/tool-philosophy を開く</b></a></p>
 <a href="https://github.com/mashi727/tool-philosophy"><img src="https://raw.githubusercontent.com/mashi727/tool-philosophy/main/docs/pad/concept.png" alt="tool-philosophy の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥉 <a href="https://github.com/mashi727/iq-analyzer"><b>iq-analyzer</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/iq-analyzer"><img src="assets/now/iq-analyzer.svg" alt="iq-analyzer の直近の活動" width="100%"></a>
-<p>Rohde &amp; Schwarz の IQ 計測データ（IQW / WVH / WVD / iq.tar）を扱う高速ビューア</p>
-<p align="right"><a href="https://github.com/mashi727/iq-analyzer"><b>→ mashi727/iq-analyzer を開く</b></a></p>
-<a href="https://github.com/mashi727/iq-analyzer"><img src="https://raw.githubusercontent.com/mashi727/iq-analyzer/main/docs/images/main_window.png" alt="iq-analyzer の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
@@ -150,17 +150,17 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
-#### 🧪 Others
-
-- [**mh-curve**](https://github.com/mashi727/mh-curve) — 修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力） <sub>2026‑10</sub>
-
 #### 🎬 Video & Audio
 
-- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
 - [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
+- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
 - [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
 - [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
 - [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
+
+#### 🧪 Others
+
+- [**mh-curve**](https://github.com/mashi727/mh-curve) — 修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力） <sub>2026‑10</sub>
 
 #### 📈 Measurement & Science
 
