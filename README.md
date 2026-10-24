@@ -124,7 +124,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 21 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 20 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
