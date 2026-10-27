@@ -4,17 +4,17 @@
 <text x="40" y="52" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" letter-spacing="3" fill="#8f97c4">#1 · 30 DAYS</text>
 <text x="40" y="118" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="54" fill="#f4f1ff">chaptr</text>
 <rect x="562.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="577.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="592.0" y="107.6" width="11.0" height="20.4" rx="3" fill="url(#bar)"/>
-<rect x="607.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
-<rect x="622.0" y="87.1" width="11.0" height="40.9" rx="3" fill="url(#bar)"/>
-<rect x="637.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="652.0" y="97.3" width="11.0" height="30.7" rx="3" fill="url(#bar)"/>
+<rect x="577.0" y="107.6" width="11.0" height="20.4" rx="3" fill="url(#bar)"/>
+<rect x="592.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
+<rect x="607.0" y="87.1" width="11.0" height="40.9" rx="3" fill="url(#bar)"/>
+<rect x="622.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="637.0" y="97.3" width="11.0" height="30.7" rx="3" fill="url(#bar)"/>
+<rect x="652.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="667.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="682.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="697.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="712.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="727.0" y="87.1" width="11.0" height="40.9" rx="3" fill="url(#bar)"/>
+<rect x="712.0" y="87.1" width="11.0" height="40.9" rx="3" fill="url(#bar)"/>
+<rect x="727.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="742.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="757.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="772.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
@@ -27,8 +27,8 @@
 <rect x="877.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="892.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="907.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="922.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="937.0" y="56.4" width="11.0" height="71.6" rx="3" fill="url(#bar)"/>
+<rect x="922.0" y="56.4" width="11.0" height="71.6" rx="3" fill="url(#bar)"/>
+<rect x="937.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="952.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="967.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="982.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>

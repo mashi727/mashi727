@@ -152,8 +152,8 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <!-- INDEX:START -->
 #### 🎬 Video & Audio
 
-- [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
 - [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑10</sub>
+- [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑10</sub>
 - [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
 - [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
 - [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
