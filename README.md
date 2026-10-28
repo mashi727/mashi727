@@ -124,23 +124,23 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/book-viewer"><b>book-viewer</b></a> — 🔥 20 commits / 30日 · <sub>Python</sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/book-viewer"><img src="assets/now/book-viewer.svg" alt="book-viewer の直近の活動" width="100%"></a>
-<p>自炊本 PDF リーダー。見開き・右綴じを PDF 自体に記録し、読書位置を保持</p>
-<p align="right"><a href="https://github.com/mashi727/book-viewer"><b>→ mashi727/book-viewer を開く</b></a></p>
-<a href="https://github.com/mashi727/book-viewer"><img src="https://raw.githubusercontent.com/mashi727/book-viewer/main/docs/images/main.png" alt="book-viewer の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥉 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
 <p>道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録</p>
 <p align="right"><a href="https://github.com/mashi727/tool-philosophy"><b>→ mashi727/tool-philosophy を開く</b></a></p>
 <a href="https://github.com/mashi727/tool-philosophy"><img src="https://raw.githubusercontent.com/mashi727/tool-philosophy/main/docs/pad/concept.png" alt="tool-philosophy の画面" width="100%"></a>
+
+</details>
+<details>
+<summary>🥉 <a href="https://github.com/mashi727/iPhone-G-Sensor"><b>iPhone-G-Sensor</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/iPhone-G-Sensor"><img src="assets/now/iPhone-G-Sensor.svg" alt="iPhone-G-Sensor の直近の活動" width="100%"></a>
+<p>iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化</p>
+<p align="right"><a href="https://github.com/mashi727/iPhone-G-Sensor"><b>→ mashi727/iPhone-G-Sensor を開く</b></a></p>
+<a href="https://github.com/mashi727/iPhone-G-Sensor"><img src="https://raw.githubusercontent.com/mashi727/iPhone-G-Sensor/main/assets/screenshots/log_viewer_flight_integrated_track.png" alt="iPhone-G-Sensor の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
