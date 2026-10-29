@@ -4,10 +4,10 @@
 <text x="40" y="52" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" letter-spacing="3" fill="#8f97c4">#3 · 30 DAYS</text>
 <text x="40" y="118" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="50" fill="#f4f1ff">iPhone-G-Sensor</text>
 <rect x="562.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="577.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="592.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
-<rect x="607.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
-<rect x="622.0" y="91.2" width="11.0" height="36.8" rx="3" fill="url(#bar)"/>
+<rect x="577.0" y="36.0" width="11.0" height="92.0" rx="3" fill="url(#bar)"/>
+<rect x="592.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
+<rect x="607.0" y="91.2" width="11.0" height="36.8" rx="3" fill="url(#bar)"/>
+<rect x="622.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="637.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="652.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
 <rect x="667.0" y="125" width="11.0" height="3" rx="1.5" fill="#3a4170"/>
