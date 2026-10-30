@@ -114,7 +114,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 29 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 27 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
@@ -134,13 +134,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/iPhone-G-Sensor"><b>iPhone-G-Sensor</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
-<a href="https://github.com/mashi727/iPhone-G-Sensor"><img src="assets/now/iPhone-G-Sensor.svg" alt="iPhone-G-Sensor の直近の活動" width="100%"></a>
-<p>iPhone のモーションセンサー記録と、地理院地図上での推測航法による可視化</p>
-<p align="right"><a href="https://github.com/mashi727/iPhone-G-Sensor"><b>→ mashi727/iPhone-G-Sensor を開く</b></a></p>
-<a href="https://github.com/mashi727/iPhone-G-Sensor"><img src="https://raw.githubusercontent.com/mashi727/iPhone-G-Sensor/main/assets/screenshots/log_viewer_flight_integrated_track.png" alt="iPhone-G-Sensor の画面" width="100%"></a>
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
+<p>動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram）</p>
+<p align="right"><a href="https://github.com/mashi727/media-scribe-workflow"><b>→ mashi727/media-scribe-workflow を開く</b></a></p>
+<a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
