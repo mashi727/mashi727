@@ -114,7 +114,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 15 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 14 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
@@ -124,23 +124,23 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/tool-philosophy"><b>tool-philosophy</b></a> — 🔥 14 commits / 30日 · <sub>Shell</sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/tool-philosophy"><img src="assets/now/tool-philosophy.svg" alt="tool-philosophy の直近の活動" width="100%"></a>
-<p>道具は How である ── 中身は問わず、目的・再現性・つながり・正直な失敗の四つを問う。実際にやってきたことの記録</p>
-<p align="right"><a href="https://github.com/mashi727/tool-philosophy"><b>→ mashi727/tool-philosophy を開く</b></a></p>
-<a href="https://github.com/mashi727/tool-philosophy"><img src="https://raw.githubusercontent.com/mashi727/tool-philosophy/main/docs/pad/concept.png" alt="tool-philosophy の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 7 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
 <p>動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram）</p>
 <p align="right"><a href="https://github.com/mashi727/media-scribe-workflow"><b>→ mashi727/media-scribe-workflow を開く</b></a></p>
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="https://raw.githubusercontent.com/mashi727/media-scribe-workflow/main/docs/images/dashboard-overview.png" alt="media-scribe-workflow の画面" width="100%"></a>
+
+</details>
+<details>
+<summary>🥉 <a href="https://github.com/mashi727/padkit"><b>padkit</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/padkit"><img src="assets/now/padkit.svg" alt="padkit の直近の活動" width="100%"></a>
+<p>SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill</p>
+<p align="right"><a href="https://github.com/mashi727/padkit"><b>→ mashi727/padkit を開く</b></a></p>
+<a href="https://github.com/mashi727/padkit"><img src="https://raw.githubusercontent.com/mashi727/padkit/main/docs/images/release-process.standard.png" alt="padkit の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
