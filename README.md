@@ -114,7 +114,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 14 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 11 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
@@ -124,7 +124,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 3 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
@@ -134,13 +134,13 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥉 <a href="https://github.com/mashi727/padkit"><b>padkit</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥉 <a href="https://github.com/mashi727/mh-curve"><b>mh-curve</b></a> — 🔥 2 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
-<a href="https://github.com/mashi727/padkit"><img src="assets/now/padkit.svg" alt="padkit の直近の活動" width="100%"></a>
-<p>SPD で書いた手順・計画を PAD（問題分析図）として検査・描画する。黙って図を崩す入力を止める lint、SVG/PDF 出力、Claude Skill</p>
-<p align="right"><a href="https://github.com/mashi727/padkit"><b>→ mashi727/padkit を開く</b></a></p>
-<a href="https://github.com/mashi727/padkit"><img src="https://raw.githubusercontent.com/mashi727/padkit/main/docs/images/release-process.standard.png" alt="padkit の画面" width="100%"></a>
+<a href="https://github.com/mashi727/mh-curve"><img src="assets/now/mh-curve.svg" alt="mh-curve の直近の活動" width="100%"></a>
+<p>修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力）</p>
+<p align="right"><a href="https://github.com/mashi727/mh-curve"><b>→ mashi727/mh-curve を開く</b></a></p>
+<a href="https://github.com/mashi727/mh-curve"><img src="https://raw.githubusercontent.com/mashi727/mh-curve/main/docs/images/main-window.png" alt="mh-curve の画面" width="100%"></a>
 
 </details>
 <!-- NOW:END -->
