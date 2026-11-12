@@ -114,7 +114,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 11 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 13 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
@@ -124,17 +124,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/mh-curve"><b>mh-curve</b></a> — 🔥 2 commits / 30日 · <sub>Python</sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/mh-curve"><img src="assets/now/mh-curve.svg" alt="mh-curve の直近の活動" width="100%"></a>
-<p>修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力）</p>
-<p align="right"><a href="https://github.com/mashi727/mh-curve"><b>→ mashi727/mh-curve を開く</b></a></p>
-<a href="https://github.com/mashi727/mh-curve"><img src="https://raw.githubusercontent.com/mashi727/mh-curve/main/docs/images/main-window.png" alt="mh-curve の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 1 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 1 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
@@ -152,8 +142,8 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <!-- INDEX:START -->
 #### 🎬 Video & Audio
 
-- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑11</sub>
 - [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑11</sub>
+- [**media-scribe-workflow**](https://github.com/mashi727/media-scribe-workflow) — 動画・音声から字幕・チャプター・LuaTeX レポート PDF を生成する CLI 群とパイプライン（Whisper / Deepgram） <sub>2026‑11</sub>
 - [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
 - [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
 - [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
