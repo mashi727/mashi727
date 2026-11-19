@@ -124,7 +124,16 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 1 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/mashi727.github.io"><b>mashi727.github.io</b></a> — 🔥 3 commits / 30日 · <sub></sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/mashi727.github.io"><img src="assets/now/mashi727.github.io.svg" alt="mashi727.github.io の直近の活動" width="100%"></a>
+<p>Massy&#x27;s apps: support pages and privacy policies</p>
+<p align="right"><a href="https://github.com/mashi727/mashi727.github.io"><b>→ mashi727/mashi727.github.io を開く</b></a></p>
+
+</details>
+<details>
+<summary>🥉 <a href="https://github.com/mashi727/media-scribe-workflow"><b>media-scribe-workflow</b></a> — 🔥 1 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/media-scribe-workflow"><img src="assets/now/media-scribe-workflow.svg" alt="media-scribe-workflow の直近の活動" width="100%"></a>
@@ -140,6 +149,11 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 <sub>分野も各行も、最近更新したものが上に来ます（GitHub Actions で毎日自動更新）。</sub>
 
 <!-- INDEX:START -->
+#### 🧪 Others
+
+- [**mashi727.github.io**](https://github.com/mashi727/mashi727.github.io) — Massy's apps: support pages and privacy policies <sub>2026‑11</sub>
+- [**mh-curve**](https://github.com/mashi727/mh-curve) — 修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力） <sub>2026‑10</sub>
+
 #### 🎬 Video & Audio
 
 - [**chaptr**](https://github.com/mashi727/chaptr) — 演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う <sub>2026‑11</sub>
@@ -147,10 +161,6 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 - [**score-viewer**](https://github.com/mashi727/score-viewer) — Chaptr のサポートツール。譜面を見ながら、曲名をコピーし返し練習の開始小節を確かめる楽譜 PDF ビューア <sub>2026‑10</sub>
 - [**youtube-cover-cropper**](https://github.com/mashi727/youtube-cover-cropper) — YouTube サムネイル用に 16:9・1280×720 で切り出し <sub>2026‑10</sub>
 - [**fb-video-downloader**](https://github.com/mashi727/fb-video-downloader) — Facebook 動画の取得と、内容に即したファイル名の自動付与 <sub>2026‑10</sub>
-
-#### 🧪 Others
-
-- [**mh-curve**](https://github.com/mashi727/mh-curve) — 修正 Kim–Anderson モデルによる M–H ループと高調波交流磁化率 χn(t) の計算・可視化（PySide6 + PyQtGraph、論文用 PDF 出力） <sub>2026‑10</sub>
 
 #### 📈 Measurement & Science
 
