@@ -124,7 +124,7 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 </details>
 <details>
-<summary>🥈 <a href="https://github.com/mashi727/mashi727.github.io"><b>mashi727.github.io</b></a> — 🔥 3 commits / 30日 · <sub></sub></summary>
+<summary>🥈 <a href="https://github.com/mashi727/mashi727.github.io"><b>mashi727.github.io</b></a> — 🔥 5 commits / 30日 · <sub></sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/mashi727.github.io"><img src="assets/now/mashi727.github.io.svg" alt="mashi727.github.io の直近の活動" width="100%"></a>
