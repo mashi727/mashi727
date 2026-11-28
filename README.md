@@ -114,22 +114,22 @@ Rohde &amp; Schwarz・Keysight の IQ 録音を、メモリに載せずに閲覧
 
 <!-- NOW:START -->
 <details open>
-<summary>🥇 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
+<summary>🥇 <a href="https://github.com/mashi727/mashi727.github.io"><b>mashi727.github.io</b></a> — 🔥 6 commits / 30日 · <sub></sub></summary>
+<br>
+
+<a href="https://github.com/mashi727/mashi727.github.io"><img src="assets/now/mashi727.github.io.svg" alt="mashi727.github.io の直近の活動" width="100%"></a>
+<p>Massy&#x27;s apps: support pages and privacy policies</p>
+<p align="right"><a href="https://github.com/mashi727/mashi727.github.io"><b>→ mashi727/mashi727.github.io を開く</b></a></p>
+
+</details>
+<details>
+<summary>🥈 <a href="https://github.com/mashi727/chaptr"><b>chaptr</b></a> — 🔥 6 commits / 30日 · <sub>Python</sub></summary>
 <br>
 
 <a href="https://github.com/mashi727/chaptr"><img src="assets/now/chaptr.svg" alt="chaptr の直近の活動" width="100%"></a>
 <p>演奏会・レッスン・講義の長尺録画を、2 段の波形とメルスペクトログラムを見ながら章立てするデスクトップアプリ（macOS / Windows）。書き出しは media-scribe-workflow の CLI が担う</p>
 <p align="right"><a href="https://github.com/mashi727/chaptr"><b>→ mashi727/chaptr を開く</b></a></p>
 <a href="https://github.com/mashi727/chaptr"><img src="https://raw.githubusercontent.com/mashi727/chaptr/main/docs/images/editing.png" alt="chaptr の画面" width="100%"></a>
-
-</details>
-<details>
-<summary>🥈 <a href="https://github.com/mashi727/mashi727.github.io"><b>mashi727.github.io</b></a> — 🔥 5 commits / 30日 · <sub></sub></summary>
-<br>
-
-<a href="https://github.com/mashi727/mashi727.github.io"><img src="assets/now/mashi727.github.io.svg" alt="mashi727.github.io の直近の活動" width="100%"></a>
-<p>Massy&#x27;s apps: support pages and privacy policies</p>
-<p align="right"><a href="https://github.com/mashi727/mashi727.github.io"><b>→ mashi727/mashi727.github.io を開く</b></a></p>
 
 </details>
 <details>
